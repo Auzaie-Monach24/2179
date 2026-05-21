@@ -1,125 +1,177 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>Multiple Visualisations | An Example</title>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-
-  <!-- Import pure.css -->
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Google font -->
+  <title>Malaysia 2025 Housing Affordability and Labour Market Conditions</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.24.0"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#172033;
+      --muted:#526173;
+      --line:#dbe3ee;
+      --panel:#ffffff;
+      --bg:#f3f6fb;
+      --blue:#1e3a8a;
+      --blue2:#0f766e;
+      --soft:#e9f3ff;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:'Open Sans',Arial,sans-serif;}
+    .page{max-width:1220px;margin:0 auto;padding:22px 24px 34px;}
+    .hero{background:linear-gradient(135deg,#0f172a,#1e3a8a 62%,#0f766e);color:white;border-radius:20px;padding:26px 32px;margin-bottom:16px;box-shadow:0 12px 30px rgba(15,23,42,.18);}
+    .hero h1{margin:0 0 8px;font-size:32px;line-height:1.15;font-weight:800;letter-spacing:-.4px;}
+    .hero p{max-width:980px;margin:0;font-size:14px;line-height:1.65;color:#dbeafe;}
+    .chapter{display:flex;align-items:center;gap:12px;margin:18px 0 10px;color:#334155;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;}
+    .chapter:after{content:"";height:1px;background:var(--line);flex:1;}
+    .row{display:grid;grid-template-columns:30% 70%;gap:16px;align-items:stretch;margin:14px 0;}
+    .story-card,.chart-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:0 6px 18px rgba(15,23,42,.07);}
+    .story-card{padding:18px 20px;display:flex;flex-direction:column;justify-content:center;}
+    .story-card h2{font-size:18px;line-height:1.28;margin:0 0 9px;color:#0f172a;font-weight:800;letter-spacing:-.15px;}
+    .story-card p{font-size:13.4px;line-height:1.58;margin:0 0 8px;color:var(--muted);}
+    .story-card p:last-child{margin-bottom:0;}
+    .story-card strong{color:#1e3a8a;font-weight:800;}
+    .chart-card{padding:10px 12px 8px;display:flex;align-items:flex-start;justify-content:center;overflow-x:auto;min-height:385px;}
+    .chart-card.tall{min-height:450px;}
+    .vis{width:100%;}
+    .vega-embed{width:100%;}
+    .footer{font-size:11.5px;color:#64748b;margin-top:18px;text-align:center;line-height:1.5;}
+    @media(max-width:900px){
+      .page{padding:14px 12px 26px;}
+      .hero{padding:22px 22px;}
+      .hero h1{font-size:25px;}
+      .row{grid-template-columns:1fr;gap:10px;margin:12px 0;}
+      .story-card{padding:16px 18px;}
+      .chart-card,.chart-card.tall{min-height:390px;}
+    }
+  </style>
 </head>
-
 <body>
+<div class="page">
+  <section class="hero">
+    <h1>Malaysia 2025 Housing Affordability and Labour Market Conditions</h1>
+    <p>This dashboard tells a state-by-state story about whether expensive and active housing markets align with stronger or weaker labour conditions. Housing records describe township prices, tenure, property type and transaction activity, while the quarterly labour dataset adds labour force size, employment, unemployment and participation rate for 2025.</p>
+  </section>
 
-  <div class="page">
+  <div class="chapter">By: Auzaie Nasir | FIT2179 | DATA VISUALIZATION II</div>
 
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <h1>Multiple Visualisations</h1>
-        <p>This page demonstrates how you can use pure.css grid for your layout.</p>
-      </div>
+  <section class="row">
+    <div class="story-card">
+      <h2>Where are Malaysia's higher-priced housing markets?</h2>
+      <p>The map starts the dashboard geographically by showing how weighted median property prices vary across states.</p>
+      <p>Darker states point to more expensive housing markets, helping the reader quickly locate where affordability pressure is likely to be higher before moving into labour comparisons.</p>
     </div>
-    <!-- end pure grid group -->
+    <div class="chart-card tall"><div id="vis1" class="vis"></div></div>
+  </section>
 
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div class="description description-left">
-          <h2>Two Columns Layout</h2>
-          <p>The first column contains text and the second column contains a visualisation.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </p>
-        </div>
-      </div>
-      <div class="pure-u-1-2">
-        <div id="vis1" class="vis-container"></div>
-      </div>
+  <div class="chapter">Housing price and labour context</div>
+
+  <section class="row">
+    <div class="story-card">
+      <h2>Do higher-price states also face weaker labour conditions?</h2>
+      <p>This scatterplot connects the two datasets using State/state. Median_Price is compared against u_rate, while bubble size shows Transactions.</p>
+      <p>The chart helps identify whether expensive markets are supported by healthier labour conditions or whether some states combine high prices with higher unemployment risk.</p>
     </div>
-    <!-- end pure grid group -->
+    <div class="chart-card"><div id="vis2" class="vis"></div></div>
+  </section>
 
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>Three Equal Columns</h2>
-          <p>Using all three columns without merging. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat
-            sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.</p>
-        </div>
-      </div>
-      <div class="pure-u-1-3">
-        <div id="vis4" class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-3" style="width: 31.5%;">
-        <div id="vis3" class="vis-container" style="margin-left: 15px;"></div>
-      </div>
-
+  <section class="row">
+    <div class="story-card">
+      <h2>Which states recorded the strongest housing activity?</h2>
+      <p>Transaction totals reveal where market activity is concentrated, not just where prices are highest.</p>
+      <p>The colour channel adds Median_PSF, making it possible to separate high-volume affordable markets from high-volume premium markets.</p>
     </div>
-    <!-- end pure grid group -->
+    <div class="chart-card"><div id="vis3" class="vis"></div></div>
+  </section>
 
-    <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-2-3">
-        <div id="vis2" class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-3">
-        <div class="description description-right">
-          <h2>First and Second Columns Combined</h2>
-          <p>The first and second columns are combined. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien
-            faucibus et molestie ac feugiat sed. Egestas purus viverra accumsan in nisl.</p>
-        </div>
-      </div>
+  <div class="chapter">Market structure</div>
 
+  <section class="row">
+    <div class="story-card">
+      <h2>How does property type mix differ across active states?</h2>
+      <p>The normalised stacked bar focuses on composition rather than raw totals. This shows whether each active state is driven more by terrace houses, apartments, condominiums or other property types.</p>
+      <p>This matters because two states can have similar transaction totals but very different housing-market structures.</p>
     </div>
-    <!-- end pure grid group -->
+    <div class="chart-card"><div id="vis4" class="vis"></div></div>
+  </section>
 
-    <div class="pure-g">
-      <div class="pure-u-1-1 small-font">
-        <p>This visualisation is created by <a href="https://fit3179.github.io/Vega-Lite/" target="_blank">FIT3179
-            Teaching Team</a>. The datasource is <a href="#" target=" _blank">some data repository online</href>.</p>
-      </div>
+  <section class="row">
+    <div class="story-card">
+      <h2>Which property type dominates the national market?</h2>
+      <p>The donut chart gives a compact national summary of Transactions by Type.</p>
+      <p>It works as a quick part-to-whole view before the dashboard drills down into state and township patterns.</p>
     </div>
+    <div class="chart-card"><div id="vis5" class="vis"></div></div>
+  </section>
 
+  <section class="row">
+    <div class="story-card">
+      <h2>Which state type combinations are the most active?</h2>
+      <p>The heatmap reveals dense combinations of State and Type using Transactions.</p>
+      <p>The Tenure filter adds ownership context, allowing the reader to test whether activity patterns change when focusing on Freehold, Leasehold or other tenure categories.</p>
+    </div>
+    <div class="chart-card tall"><div id="vis7" class="vis"></div></div>
+  </section>
 
-  </div> <!-- end page -->
+  <div class="chapter">Quarterly labour movement</div>
 
-  <script type="text/javascript">
-    var specVis1 = "./normalised-stacked-bars-responsive.json";
-    var specVis2 = "./line-chart-responsive.json";
+  <section class="row">
+    <div class="story-card">
+      <h2>Do employment and unemployment move together during 2025?</h2>
+      <p>This dual-axis line chart uses the actual labour columns: lf_employed on the left scale and lf_unemployed on the right scale.</p>
+      <p>The state filter supports a focused reading of quarterly labour movement without flattening unemployment under the much larger employed-person count.</p>
+    </div>
+    <div class="chart-card"><div id="vis6" class="vis"></div></div>
+  </section>
 
-    vegaEmbed('#vis1', specVis1, { "actions": false });
+  <section class="row">
+    <div class="story-card">
+      <h2>Which states improved or worsened in unemployment?</h2>
+      <p>The dumbbell chart compares u_rate between the early and later 2025 quarters.</p>
+      <p>A longer connecting line indicates a larger labour-market shift, making it easier to spot states where unemployment changed noticeably during the year.</p>
+    </div>
+    <div class="chart-card tall"><div id="vis8" class="vis"></div></div>
+  </section>
 
-    vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
+  <div class="chapter">Advanced market profile and local hotspots</div>
 
-    vegaEmbed('#vis3', specVis1, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
+  <section class="row">
+    <div class="story-card">
+      <h2>Which states combine high activity with high price levels?</h2>
+      <p>The radial profile compresses two housing indicators into one advanced idiom: angle shows Transactions, while radius represents Median_Price.</p>
+      <p>This gives a quick profile of states that are both active and expensive, compared with markets that are active but more moderate in price.</p>
+    </div>
+    <div class="chart-card tall"><div id="vis9" class="vis"></div></div>
+  </section>
 
-    vegaEmbed('#vis4', specVis2, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
+  <section class="row">
+    <div class="story-card">
+      <h2>Where are the township transaction hotspots?</h2>
+      <p>The lollipop chart drills down from state-level patterns into Township and Area records.</p>
+      <p>State and Type filters reduce clutter, so the reader can compare the most active localities for a selected property category instead of viewing every township at once.</p>
+    </div>
+    <div class="chart-card"><div id="vis10" class="vis"></div></div>
+  </section>
 
-  </script>
+  <div class="footer">Data sources: https://www.kaggle.com/datasets/lyhatt/house-prices-in-malaysia-2025 & https://data.gov.my/data-catalogue/lfs_qtr_state </div>
+</div>
+<script>
+const opts = {actions:false, renderer:'svg'};
+vegaEmbed('#vis1', 'chart1.json', opts).catch(console.error);
+vegaEmbed('#vis2', 'chart2.json', opts).catch(console.error);
+vegaEmbed('#vis3', 'chart3.json', opts).catch(console.error);
+vegaEmbed('#vis4', 'chart4.json', opts).catch(console.error);
+vegaEmbed('#vis5', 'chart5.json', opts).catch(console.error);
+vegaEmbed('#vis6', 'chart6.json', opts).catch(console.error);
+vegaEmbed('#vis7', 'chart7.json', opts).catch(console.error);
+vegaEmbed('#vis8', 'chart8.json', opts).catch(console.error);
+vegaEmbed('#vis9', 'chart9.json', opts).catch(console.error);
+vegaEmbed('#vis10', 'chart10.json', opts).catch(console.error);
+</script>
 </body>
-
 </html>
