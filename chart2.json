@@ -27,7 +27,7 @@
     "x": {
       "field": "u_rate",
       "type": "quantitative",
-      "title": "u_rate: Unemployment Rate (%)",
+      "title": "Unemployment Rate (%)",
       "scale": {
         "zero": false
       }
@@ -35,7 +35,7 @@
     "y": {
       "field": "Median_Price",
       "type": "quantitative",
-      "title": "Median_Price (RM)",
+      "title": "Median Price (RM)",
       "axis": {
         "format": ",.0f"
       }
