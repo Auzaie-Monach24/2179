@@ -64,7 +64,7 @@
         "y": {
           "field": "lf_employed",
           "type": "quantitative",
-          "title": "lf_employed: Employed persons ('000)",
+          "title": "Employed persons ('000)",
           "scale": {
             "zero": false,
             "nice": true
@@ -125,7 +125,7 @@
         "y": {
           "field": "lf_unemployed",
           "type": "quantitative",
-          "title": "lf_unemployed: Unemployed persons ('000)",
+          "title": "Unemployed persons ('000)",
           "scale": {
             "zero": false,
             "nice": true

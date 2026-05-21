@@ -13,9 +13,7 @@
         "input": "select",
         "options": [
           "Freehold",
-          "Leasehold",
-          "Malay Reserve",
-          "Unknown"
+          "Leasehold"
         ],
         "name": "Tenure: "
       }
