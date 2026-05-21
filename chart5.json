@@ -1,0 +1,79 @@
+{
+  "description": "Donut chart for national property Type share.",
+  "width": "container",
+  "height": 380,
+  "data": {
+    "url": "housing_type_2025.csv"
+  },
+  "mark": {
+    "type": "arc",
+    "innerRadius": 78,
+    "outerRadius": 150,
+    "stroke": "white",
+    "strokeWidth": 2
+  },
+  "encoding": {
+    "theta": {
+      "field": "Transactions",
+      "type": "quantitative",
+      "stack": true,
+      "title": "Transactions"
+    },
+    "color": {
+      "field": "Type",
+      "type": "nominal",
+      "title": "Type"
+    },
+    "tooltip": [
+      {
+        "field": "Type"
+      },
+      {
+        "field": "Transactions",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "Median_Price",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "Median_PSF",
+        "type": "quantitative",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "title": {
+    "text": "Which property type dominates the 2025 market?",
+    "subtitle": "Donut chart uses only Type and Transactions, with price details in tooltip"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "orient": "bottom"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    }
+  }
+}

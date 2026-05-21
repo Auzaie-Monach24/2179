@@ -1,0 +1,139 @@
+{
+  "description": "Dumbbell chart of unemployment rate across 2025 dates.",
+  "width": "container",
+  "height": 430,
+  "data": {
+    "url": "s2_2025.csv"
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "date",
+        "oneOf": [
+          "2025-01-01",
+          "2025-07-01"
+        ]
+      }
+    },
+    {
+      "filter": "datum.state != 'Malaysia'"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2,
+        "opacity": 0.55
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "sort": {
+            "field": "u_rate",
+            "op": "mean",
+            "order": "descending"
+          },
+          "title": null
+        },
+        "x": {
+          "field": "u_rate",
+          "type": "quantitative",
+          "title": "u_rate: Unemployment Rate (%)",
+          "scale": {
+            "zero": false
+          }
+        },
+        "detail": {
+          "field": "state"
+        },
+        "color": {
+          "value": "#94a3b8"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 90,
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "sort": {
+            "field": "u_rate",
+            "op": "mean",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "u_rate",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "date",
+          "type": "nominal",
+          "title": "date"
+        },
+        "tooltip": [
+          {
+            "field": "state"
+          },
+          {
+            "field": "date"
+          },
+          {
+            "field": "u_rate",
+            "type": "quantitative",
+            "format": ".1f"
+          },
+          {
+            "field": "p_rate",
+            "type": "quantitative",
+            "format": ".1f"
+          },
+          {
+            "field": "lf_unemployed",
+            "type": "quantitative",
+            "format": ",.1f"
+          }
+        ]
+      }
+    }
+  ],
+  "title": {
+    "text": "Which states improved or worsened in unemployment?",
+    "subtitle": "Dumbbell chart compares u_rate on 2025-01-01 and 2025-07-01 using original date values"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "orient": "bottom"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    }
+  }
+}

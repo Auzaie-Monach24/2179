@@ -1,0 +1,108 @@
+{
+  "description": "Normalised stacked bar of Type by State.",
+  "width": "container",
+  "height": 360,
+  "data": {
+    "url": "housing_state_type_tenure_2025.csv"
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "State",
+        "oneOf": [
+          "Johor",
+          "Selangor",
+          "Perak",
+          "Penang",
+          "Negeri Sembilan",
+          "Kuala Lumpur",
+          "Melaka",
+          "Kedah"
+        ]
+      }
+    }
+  ],
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "State",
+      "type": "nominal",
+      "title": null,
+      "sort": [
+        "Johor",
+        "Selangor",
+        "Perak",
+        "Penang",
+        "Negeri Sembilan",
+        "Kuala Lumpur",
+        "Melaka",
+        "Kedah"
+      ],
+      "axis": {
+        "labelAngle": -25
+      }
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "Transactions",
+      "type": "quantitative",
+      "stack": "normalize",
+      "title": "Share of Transactions",
+      "axis": {
+        "format": "%"
+      }
+    },
+    "color": {
+      "field": "Type",
+      "type": "nominal",
+      "title": "Type"
+    },
+    "tooltip": [
+      {
+        "field": "State"
+      },
+      {
+        "field": "Type"
+      },
+      {
+        "aggregate": "sum",
+        "field": "Transactions",
+        "type": "quantitative",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "title": {
+    "text": "How does the property-type mix differ in high-transaction states?",
+    "subtitle": "Normalised stacked bars compare Type composition using Transactions"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "orient": "bottom"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    }
+  }
+}

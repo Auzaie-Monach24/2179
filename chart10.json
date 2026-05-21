@@ -1,0 +1,260 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Lollipop chart of the top township transaction hotspots for a selected state and property type.",
+  "width": "container",
+  "height": 360,
+  "data": {
+    "url": "housing_township_top12_by_state_type_2025.csv"
+  },
+  "params": [
+    {
+      "name": "StateChoice",
+      "value": "Selangor",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Johor",
+          "Kedah",
+          "Kelantan",
+          "Kuala Lumpur",
+          "Labuan",
+          "Melaka",
+          "Negeri Sembilan",
+          "Pahang",
+          "Penang",
+          "Perak",
+          "Perlis",
+          "Putrajaya",
+          "Sabah",
+          "Sarawak",
+          "Selangor",
+          "Terengganu"
+        ],
+        "name": "State: "
+      }
+    },
+    {
+      "name": "TypeChoice",
+      "value": "Terrace House",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Terrace House",
+          "Apartment",
+          "Condominium",
+          "Flat",
+          "Service Residence",
+          "Cluster House, Terrace House"
+        ],
+        "name": "Type: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.State == StateChoice"
+    },
+    {
+      "filter": "datum.Type == TypeChoice"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "height": 3,
+        "opacity": 0.55
+      },
+      "encoding": {
+        "y": {
+          "field": "Township",
+          "type": "nominal",
+          "sort": {
+            "op": "sum",
+            "field": "Transactions",
+            "order": "descending"
+          },
+          "title": null,
+          "axis": {
+            "labelLimit": 300,
+            "labelFontSize": 11
+          }
+        },
+        "x": {
+          "field": "Transactions",
+          "type": "quantitative",
+          "title": "Transactions",
+          "axis": {
+            "grid": true
+          }
+        },
+        "color": {
+          "field": "State",
+          "type": "nominal",
+          "title": "State",
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "Township",
+            "type": "nominal"
+          },
+          {
+            "field": "Area",
+            "type": "nominal"
+          },
+          {
+            "field": "State",
+            "type": "nominal"
+          },
+          {
+            "field": "Tenure",
+            "type": "nominal"
+          },
+          {
+            "field": "Type",
+            "type": "nominal"
+          },
+          {
+            "field": "Transactions",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "Median_Price",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "Median_PSF",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "stroke": "white",
+        "strokeWidth": 1,
+        "opacity": 0.95
+      },
+      "encoding": {
+        "y": {
+          "field": "Township",
+          "type": "nominal",
+          "sort": {
+            "op": "sum",
+            "field": "Transactions",
+            "order": "descending"
+          },
+          "title": null,
+          "axis": {
+            "labelLimit": 300,
+            "labelFontSize": 11
+          }
+        },
+        "x": {
+          "field": "Transactions",
+          "type": "quantitative",
+          "title": "Transactions"
+        },
+        "color": {
+          "field": "State",
+          "type": "nominal",
+          "title": "State",
+          "legend": null
+        },
+        "size": {
+          "field": "Median_Price",
+          "type": "quantitative",
+          "title": "Median_Price",
+          "scale": {
+            "range": [
+              80,
+              280
+            ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Township",
+            "type": "nominal"
+          },
+          {
+            "field": "Area",
+            "type": "nominal"
+          },
+          {
+            "field": "State",
+            "type": "nominal"
+          },
+          {
+            "field": "Tenure",
+            "type": "nominal"
+          },
+          {
+            "field": "Type",
+            "type": "nominal"
+          },
+          {
+            "field": "Transactions",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "Median_Price",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "Median_PSF",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "shared",
+      "color": "shared"
+    }
+  },
+  "title": {
+    "text": "Township transaction hotspots by selected state and property type",
+    "subtitle": "Filters reduce clutter; circles show Transactions and encode Median_Price by size"
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "orient": "bottom"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    }
+  }
+}

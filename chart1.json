@@ -1,0 +1,114 @@
+{
+  "description": "Malaysia map using 2025 housing columns only.",
+  "width": "container",
+  "height": 420,
+  "data": {
+    "url": "https://raw.githubusercontent.com/jnewbery/CartogramMalaysia/master/public/data/malaysia-states.topojson",
+    "format": {
+      "type": "topojson",
+      "feature": "states"
+    }
+  },
+  "projection": {
+    "type": "mercator"
+  },
+  "transform": [
+    {
+      "lookup": "properties.Name",
+      "from": {
+        "data": {
+          "url": "state_summary_2025.csv"
+        },
+        "key": "State",
+        "fields": [
+          "Median_Price",
+          "Median_PSF",
+          "Transactions",
+          "u_rate",
+          "p_rate"
+        ]
+      }
+    }
+  ],
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "color": {
+      "field": "Median_Price",
+      "type": "quantitative",
+      "title": "Median_Price (RM)",
+      "scale": {
+        "scheme": "blues"
+      },
+      "legend": {
+        "format": ",.0f"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "properties.Name",
+        "type": "nominal",
+        "title": "State"
+      },
+      {
+        "field": "Median_Price",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "Median_PSF",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "Transactions",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "u_rate",
+        "type": "quantitative",
+        "format": ".1f"
+      },
+      {
+        "field": "p_rate",
+        "type": "quantitative",
+        "format": ".1f"
+      }
+    ]
+  },
+  "title": {
+    "text": "State housing price geography",
+    "subtitle": "Choropleth map: darker states have higher weighted Median_Price in 2025"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "orient": "bottom"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    }
+  }
+}

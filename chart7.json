@@ -1,0 +1,113 @@
+{
+  "description": "State by Type heatmap using transactions.",
+  "width": "container",
+  "height": 430,
+  "data": {
+    "url": "housing_state_type_tenure_2025.csv"
+  },
+  "params": [
+    {
+      "name": "TenureChoice",
+      "value": "Freehold",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Freehold",
+          "Leasehold",
+          "Malay Reserve",
+          "Unknown"
+        ],
+        "name": "Tenure: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.Tenure == TenureChoice"
+    }
+  ],
+  "mark": {
+    "type": "rect",
+    "stroke": "white",
+    "strokeWidth": 0.4
+  },
+  "encoding": {
+    "x": {
+      "field": "Type",
+      "type": "nominal",
+      "title": null,
+      "axis": {
+        "labelAngle": -35
+      }
+    },
+    "y": {
+      "field": "State",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null
+    },
+    "color": {
+      "aggregate": "sum",
+      "field": "Transactions",
+      "type": "quantitative",
+      "title": "Transactions",
+      "scale": {
+        "scheme": "oranges"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "State"
+      },
+      {
+        "field": "Type"
+      },
+      {
+        "field": "Tenure"
+      },
+      {
+        "aggregate": "sum",
+        "field": "Transactions",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "aggregate": "mean",
+        "field": "Median_Price",
+        "type": "quantitative",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "title": {
+    "text": "Which state\u2013type combinations are most active?",
+    "subtitle": "Heatmap highlights transaction concentration; Tenure filter adds ownership context"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "orient": "bottom"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    }
+  }
+}

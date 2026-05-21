@@ -1,0 +1,88 @@
+{
+  "description": "Radial bar chart comparing state Transactions.",
+  "width": "container",
+  "height": 420,
+  "data": {
+    "url": "state_summary_2025.csv"
+  },
+  "mark": {
+    "type": "arc",
+    "innerRadius": 45,
+    "stroke": "white"
+  },
+  "encoding": {
+    "theta": {
+      "field": "Transactions",
+      "type": "quantitative",
+      "stack": true,
+      "title": "Transactions"
+    },
+    "radius": {
+      "field": "Median_Price",
+      "type": "quantitative",
+      "scale": {
+        "type": "sqrt",
+        "zero": false,
+        "rangeMin": 80,
+        "rangeMax": 180
+      },
+      "title": "Median_Price"
+    },
+    "color": {
+      "field": "State",
+      "type": "nominal",
+      "title": "State"
+    },
+    "tooltip": [
+      {
+        "field": "State"
+      },
+      {
+        "field": "Transactions",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "Median_Price",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "u_rate",
+        "type": "quantitative",
+        "format": ".1f"
+      }
+    ]
+  },
+  "title": {
+    "text": "Radial comparison of market activity and price level",
+    "subtitle": "Arc angle encodes Transactions while radius encodes Median_Price by State"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "orient": "bottom"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    }
+  }
+}

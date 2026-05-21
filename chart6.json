@@ -1,0 +1,200 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Dual-axis line chart comparing actual 2025 quarterly values of lf_employed and lf_unemployed for a selected state.",
+  "data": {
+    "url": "s2_2025.csv"
+  },
+  "width": "container",
+  "height": 330,
+  "params": [
+    {
+      "name": "SelectedState",
+      "value": "Selangor",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Johor",
+          "Kedah",
+          "Kelantan",
+          "Melaka",
+          "Negeri Sembilan",
+          "Pahang",
+          "Penang",
+          "Perak",
+          "Perlis",
+          "Selangor",
+          "Terengganu",
+          "Sabah",
+          "Sarawak",
+          "Kuala Lumpur",
+          "Labuan",
+          "Putrajaya"
+        ],
+        "name": "state: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.state == SelectedState"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": {
+          "filled": true,
+          "size": 70
+        },
+        "strokeWidth": 3,
+        "color": "#2563eb"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "timeUnit": "yearquarter",
+          "type": "ordinal",
+          "title": "date",
+          "axis": {
+            "labelAngle": 0,
+            "labelExpr": "'Q' + quarter(datum.value) + ' ' + year(datum.value)"
+          }
+        },
+        "y": {
+          "field": "lf_employed",
+          "type": "quantitative",
+          "title": "lf_employed: Employed persons ('000)",
+          "scale": {
+            "zero": false,
+            "nice": true
+          },
+          "axis": {
+            "orient": "left",
+            "format": ",.0f",
+            "titleColor": "#2563eb",
+            "labelColor": "#2563eb"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "state"
+          },
+          {
+            "field": "date",
+            "type": "temporal",
+            "title": "date"
+          },
+          {
+            "field": "lf_employed",
+            "type": "quantitative",
+            "title": "lf_employed ('000)",
+            "format": ",.1f"
+          },
+          {
+            "field": "lf_unemployed",
+            "type": "quantitative",
+            "title": "lf_unemployed ('000)",
+            "format": ",.1f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "point": {
+          "filled": true,
+          "size": 70
+        },
+        "strokeWidth": 3,
+        "color": "#ef4444"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "timeUnit": "yearquarter",
+          "type": "ordinal",
+          "title": "date",
+          "axis": {
+            "labelAngle": 0,
+            "labelExpr": "'Q' + quarter(datum.value) + ' ' + year(datum.value)"
+          }
+        },
+        "y": {
+          "field": "lf_unemployed",
+          "type": "quantitative",
+          "title": "lf_unemployed: Unemployed persons ('000)",
+          "scale": {
+            "zero": false,
+            "nice": true
+          },
+          "axis": {
+            "orient": "right",
+            "format": ",.0f",
+            "titleColor": "#ef4444",
+            "labelColor": "#ef4444"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "title": "state"
+          },
+          {
+            "field": "date",
+            "type": "temporal",
+            "title": "date"
+          },
+          {
+            "field": "lf_employed",
+            "type": "quantitative",
+            "title": "lf_employed ('000)",
+            "format": ",.1f"
+          },
+          {
+            "field": "lf_unemployed",
+            "type": "quantitative",
+            "title": "lf_unemployed ('000)",
+            "format": ",.1f"
+          }
+        ]
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "title": {
+    "text": "Do employment and unemployment move together in 2025?",
+    "subtitle": "Dual-axis line chart uses actual values from lf_employed on the left axis and lf_unemployed on the right axis; dropdown filters state"
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans"
+    }
+  }
+}

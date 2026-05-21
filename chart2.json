@@ -1,0 +1,133 @@
+{
+  "description": "Scatterplot connecting housing price and labour market conditions using raw-style columns.",
+  "width": "container",
+  "height": 360,
+  "data": {
+    "url": "state_summary_2025.csv"
+  },
+  "params": [
+    {
+      "name": "SelectState",
+      "select": {
+        "type": "point",
+        "fields": [
+          "State"
+        ]
+      },
+      "bind": "legend"
+    }
+  ],
+  "mark": {
+    "type": "circle",
+    "opacity": 0.82,
+    "stroke": "white",
+    "strokeWidth": 0.8
+  },
+  "encoding": {
+    "x": {
+      "field": "u_rate",
+      "type": "quantitative",
+      "title": "u_rate: Unemployment Rate (%)",
+      "scale": {
+        "zero": false
+      }
+    },
+    "y": {
+      "field": "Median_Price",
+      "type": "quantitative",
+      "title": "Median_Price (RM)",
+      "axis": {
+        "format": ",.0f"
+      }
+    },
+    "size": {
+      "field": "Transactions",
+      "type": "quantitative",
+      "title": "Transactions",
+      "scale": {
+        "range": [
+          80,
+          1400
+        ]
+      }
+    },
+    "color": {
+      "field": "State",
+      "type": "nominal",
+      "title": "State"
+    },
+    "opacity": {
+      "condition": {
+        "param": "SelectState",
+        "value": 1
+      },
+      "value": 0.25
+    },
+    "tooltip": [
+      {
+        "field": "State"
+      },
+      {
+        "field": "Median_Price",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "Median_PSF",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "Transactions",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "u_rate",
+        "type": "quantitative",
+        "format": ".1f"
+      },
+      {
+        "field": "p_rate",
+        "type": "quantitative",
+        "format": ".1f"
+      },
+      {
+        "field": "lf",
+        "type": "quantitative",
+        "format": ",.1f"
+      }
+    ]
+  },
+  "title": {
+    "text": "Do higher-price states face weaker labour conditions?",
+    "subtitle": "Bubble size uses Transactions; axes compare Median_Price against u_rate using State as the link"
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#e7ecf2"
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "orient": "bottom"
+    },
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 16,
+      "anchor": "start",
+      "fontWeight": "bold",
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 12,
+      "subtitleColor": "#64748b"
+    }
+  }
+}
