@@ -1,0 +1,795 @@
+Township,Area,State,Tenure,Type,Median_Price,Median_PSF,Transactions
+Kipark Apartment,Tampoi,Johor,Leasehold,Apartment,380000.0,443.0,35.0
+Lake View Suites,Tebrau,Johor,Freehold,Apartment,293000.0,359.0,34.0
+Villa Krystal Apartment,Skudai,Johor,Freehold,Apartment,300000.0,336.0,34.0
+The Seed,Skudai,Johor,Freehold,Apartment,650000.0,516.0,33.0
+Sri Akasia,Tampoi,Johor,Leasehold,Apartment,380000.0,357.0,32.0
+Nusa Heights (Nusa Puncak),Iskandar Puteri (Nusajaya),Johor,Freehold,Apartment,415000.0,451.0,28.0
+Pangsapuri Persiaran Tanjung,Tampoi,Johor,Leasehold,Apartment,285000.0,297.0,28.0
+Seri Baiduri,Ulu Tiram,Johor,Freehold,Apartment,35000.0,50.0,28.0
+Sri Impian Apartment,Johor Bahru,Johor,Leasehold,Apartment,280000.0,292.0,23.0
+Prima Regency,Johor Bahru,Johor,Freehold,Apartment,351500.0,332.0,22.0
+Danga View Apartment,Tampoi,Johor,Freehold,Apartment,420000.0,340.0,22.0
+Bayu Puteri 2,Johor Bahru,Johor,Leasehold,Apartment,310000.0,343.0,21.0
+TAMAN SRI LAMBAK,Simpang Rengam,Johor,Leasehold,Bungalow,335000.0,95.0,32.0
+TAMAN PONTIAN PERDANA,Pontian,Johor,Freehold,Bungalow,541600.0,150.0,22.0
+SENIBONG VILLAS,Masai,Johor,Freehold,Bungalow,2125000.0,456.0,14.0
+TAMAN SRI UNAS 2,Muar,Johor,Freehold,"Bungalow, Semi D",394000.0,155.0,17.0
+MAJIDEE PARK,Johor Bahru,Johor,Freehold,"Bungalow, Semi D",935000.0,189.0,14.0
+TAMAN ISKANDAR,Johor Bahru,Johor,Freehold,"Bungalow, Semi D, Terrace House",744000.0,257.0,12.0
+TANJUNG PUTERI RESORT,Pasir Gudang,Johor,Freehold,"Bungalow, Terrace House",397800.0,258.0,135.0
+BANDAR SEGAMAT BARU,Segamat,Johor,Freehold,"Bungalow, Terrace House",220000.0,125.0,21.0
+TAMAN DELIMA,Kluang,Johor,Freehold,"Bungalow, Terrace House, Semi D",360000.0,153.0,12.0
+TAMAN BUKIT PERDANA,Kluang,Johor,Freehold,Cluster House,343400.0,140.0,181.0
+TAMAN GAYA,Ulu Tiram,Johor,Freehold,Cluster House,1034400.0,409.0,38.0
+TAMAN DAIMAN JAYA,Kota Tinggi,Johor,Freehold,Cluster House,776900.0,320.0,20.0
+TAMAN MUTIARA MAS,Skudai,Johor,Leasehold,Cluster House,959000.0,420.0,16.0
+TAMAN AUSTIN HEIGHTS,Tebrau,Johor,Freehold,Cluster House,1200000.0,442.0,16.0
+TAMAN BUKIT SKUDAI @ D CARLTON HEIGHTS,Skudai,Johor,"Leasehold, Freehold",Cluster House,1050000.0,415.0,15.0
+TAMAN MUTIARA BESTARI,Skudai,Johor,Freehold,"Cluster House, Semi D",1114310.0,483.0,114.0
+BANDAR CEMERLANG,Tebrau,Johor,Freehold,"Cluster House, Semi D",828000.0,345.0,69.0
+TAMAN AKASIA (ACACIA HEIGHTS),Kluang,Johor,Freehold,"Cluster House, Semi D",610500.0,208.0,20.0
+NUSA DUTA,Skudai,Johor,Freehold,"Cluster House, Semi D",1350000.0,397.0,15.0
+BANDAR PUTRA,Kulai,Johor,Freehold,"Cluster House, Terrace House",590900.0,322.0,519.0
+TAMAN DAYA,Tebrau,Johor,Freehold,"Cluster House, Terrace House",504000.0,331.0,172.0
+BANDAR BARU KANGKAR PULAI,Kulai,Johor,"Freehold, Leasehold","Cluster House, Terrace House",553200.0,297.0,155.0
+SETIA TROPIKA,Tampoi,Johor,Freehold,"Cluster House, Terrace House",911890.0,435.0,110.0
+TAMAN SUTERA UTAMA,Skudai,Johor,Freehold,"Cluster House, Terrace House",1065000.0,474.0,36.0
+TAMAN KEMPAS INDAH,Tebrau,Johor,Freehold,"Cluster House, Terrace House",644000.0,333.0,30.0
+TAMAN NUSANTARA PRIMA,Gelang Patah,Johor,Freehold,"Cluster House, Terrace House",675000.0,337.0,24.0
+BANDAR BARU KANGKAR PULAI,Skudai,Johor,Leasehold,"Cluster House, Terrace House",498000.0,239.0,15.0
+TAMAN PULAI FLORA,Skudai,Johor,Freehold,"Cluster House, Terrace House",600000.0,357.0,11.0
+Medini Signature,Iskandar Puteri (Nusajaya),Johor,Freehold,Condominium,814800.0,505.0,50.0
+Straits View Condominium,Permas Jaya,Johor,Freehold,Condominium,495000.0,304.0,21.0
+M Condominium @ Larkin,Johor Bahru,Johor,Leasehold,Condominium,485000.0,439.0,20.0
+The WaterEdge (Pinggiran Air),Permas Jaya,Johor,Freehold,Condominium,640000.0,555.0,17.0
+Selesa Puteri Condominium,Skudai,Johor,Freehold,Condominium,271000.0,268.0,14.0
+1Medini,Iskandar Puteri (Nusajaya),Johor,Freehold,Condominium,370000.0,366.0,14.0
+Paradiso Nuova (Merak Kayangan),Iskandar Puteri (Nusajaya),Johor,Freehold,Condominium,708000.0,485.0,12.0
+Petrie Condominium,Johor Bahru,Johor,Freehold,Condominium,499000.0,279.0,11.0
+Iskandar Residences,Iskandar Puteri (Nusajaya),Johor,Freehold,Condominium,873000.0,601.0,11.0
+Skudai Villa,Skudai,Johor,Freehold,Condominium,370000.0,334.0,11.0
+Hillview Loft,Batu Pahat,Johor,Freehold,Condominium,320000.0,303.0,11.0
+The Wadihana,Johor Bahru,Johor,Freehold,Condominium,528000.0,302.0,11.0
+Flat Taman Ungku Tun Aminah,Skudai,Johor,Freehold,Flat,140000.0,283.0,117.0
+Taman Cempaka,Tampoi,Johor,Leasehold,Flat,136000.0,246.0,33.0
+Flat Taman Perling,Perling,Johor,Freehold,Flat,150000.0,273.0,31.0
+Jasa,Skudai,Johor,Leasehold,Flat,150000.0,244.0,25.0
+Taman Pulai Utama,Skudai,Johor,Freehold,Flat,150000.0,228.0,25.0
+Taman Cendana,Pasir Gudang,Johor,Leasehold,Flat,130000.0,251.0,24.0
+Bandar Baru Permas Jaya,Permas Jaya,Johor,Freehold,Flat,172500.0,232.0,22.0
+Sri Lanang,Tebrau,Johor,Freehold,Flat,170000.0,226.0,22.0
+Taman Mount Austin,Tebrau,Johor,Freehold,Flat,250000.0,438.0,21.0
+Taman Melor,Tampoi,Johor,Leasehold,Flat,115000.0,232.0,19.0
+Jentayu,Skudai,Johor,Freehold,Flat,130000.0,195.0,18.0
+Balau,Masai,Johor,Freehold,Flat,146000.0,228.0,18.0
+Sri Kenari Apartment,Johor Bahru,Johor,Leasehold,"Flat, Apartment",320000.0,350.0,14.0
+TAMAN PONDEROSA,Johor Bahru,Johor,Freehold,Semi D,1110900.0,535.0,74.0
+TAMAN NUSA IDAMAN,Iskandar Puteri (Nusajaya),Johor,Freehold,Semi D,780000.0,368.0,35.0
+TAMAN MELODIES,Johor Bahru,Johor,Freehold,"Semi D, Bungalow",980000.0,275.0,29.0
+TAMAN KEMPAS UTAMA,Skudai,Johor,Freehold,"Semi D, Cluster House",1000000.0,427.0,35.0
+KAWASAN ABDUL SAMAD/MARIMAH,Johor Bahru,Johor,Freehold,"Semi D, Cluster House",980000.0,131.0,13.0
+TAMAN PULAI BAYU,Skudai,Johor,Freehold,"Semi D, Cluster House",900000.0,264.0,11.0
+TAMAN PELANGI,Johor Bahru,Johor,Freehold,"Semi D, Terrace House",750000.0,325.0,69.0
+TAMAN SENTOSA,Johor Bahru,Johor,Freehold,"Semi D, Terrace House",700000.0,321.0,53.0
+TAMAN AIR BIRU,Pasir Gudang,Johor,Leasehold,"Semi D, Terrace House",270000.0,245.0,49.0
+NUSA SENTRAL,Iskandar Puteri (Nusajaya),Johor,Freehold,"Semi D, Terrace House",770000.0,485.0,49.0
+TAMAN KOTA JAYA,Kota Tinggi,Johor,Freehold,"Semi D, Terrace House",310000.0,198.0,45.0
+TAMAN KLUANG PERDANA,Kluang,Johor,Freehold,"Semi D, Terrace House",199900.0,110.0,39.0
+EAST LEDANG,Iskandar Puteri (Nusajaya),Johor,Freehold,"Semi D, Terrace House",1344000.0,340.0,32.0
+SENIBONG COVE,Permas Jaya,Johor,Freehold,"Semi D, Terrace House",1680000.0,557.0,31.0
+TAMAN PUTERI JAYA,Batu Pahat,Johor,Freehold,"Semi D, Terrace House",468000.0,286.0,25.0
+TAMAN AUSTIN PERDANA,Tebrau,Johor,Freehold,"Semi D, Terrace House",670000.0,434.0,17.0
+TAMAN INDUSTRI SRI SULONG,Batu Pahat,Johor,Freehold,"Semi D, Terrace House",235000.0,100.0,11.0
+TAMAN TASEK,Johor Bahru,Johor,Freehold,"Semi D, Terrace House",615000.0,250.0,11.0
+D'Summit Residences,Skudai,Johor,Freehold,Service Residence,452900.0,602.0,165.0
+Setia Sky 88,Johor Bahru,Johor,Freehold,Service Residence,1386800.0,1270.0,79.0
+Nusa Perdana Apartment,Iskandar Puteri (Nusajaya),Johor,Freehold,Service Residence,360000.0,386.0,48.0
+Molek Regency,Johor Bahru,Johor,Freehold,Service Residence,580000.0,536.0,46.0
+Greenfield Regency,Tampoi,Johor,Freehold,Service Residence,391500.0,485.0,42.0
+Green Haven,Masai,Johor,Freehold,Service Residence,631950.0,530.0,39.0
+Tebrau City Residences,Tebrau,Johor,Freehold,Service Residence,380000.0,365.0,37.0
+The Garden Residences,Skudai,Johor,"Leasehold, Freehold",Service Residence,365000.0,437.0,33.0
+ARC @ Austin Hills,Johor Bahru,Johor,Freehold,Service Residence,360000.0,506.0,31.0
+The Astaka @ 1 Bukit Senyum,Johor Bahru,Johor,Freehold,Service Residence,2386358.0,1055.0,30.0
+Twin Galaxy (Dwi Galaksi),Johor Bahru,Johor,Freehold,Service Residence,586000.0,641.0,29.0
+Sky Peak Residences,Tampoi,Johor,Freehold,Service Residence,445000.0,431.0,26.0
+TAMAN KOTA MASAI,Pasir Gudang,Johor,Freehold,Terrace House,345000.0,323.0,319.0
+TAMAN BUKIT INDAH,Iskandar Puteri (Nusajaya),Johor,Freehold,Terrace House,695000.0,425.0,259.0
+TAMAN UNIVERSITI,Skudai,Johor,Freehold,Terrace House,394000.0,307.0,202.0
+TAMAN JOHOR JAYA,Johor Bahru,Johor,Freehold,Terrace House,450000.0,326.0,195.0
+TAMAN KIRANA,Kluang,Johor,Leasehold,Terrace House,170800.0,125.0,188.0
+TAMAN BESTARI INDAH,Ulu Tiram,Johor,Freehold,Terrace House,832000.0,471.0,184.0
+TAMAN MUTIARA RINI,Skudai,Johor,Leasehold,Terrace House,672000.0,396.0,183.0
+BANDAR BARU PERMAS JAYA,Permas Jaya,Johor,Freehold,Terrace House,500000.0,392.0,173.0
+HORIZON HILLS,Iskandar Puteri (Nusajaya),Johor,Freehold,Terrace House,1180000.0,500.0,171.0
+TAMAN PAGOH JAYA - TR 428,Pagoh,Johor,Freehold,Terrace House,80000.0,74.0,156.0
+TAMAN PERLING,Perling,Johor,Freehold,Terrace House,527500.0,286.0,152.0
+LAYANGGKASA,Pasir Gudang,Johor,Freehold,Terrace House,551650.0,384.0,149.0
+UDA UTAMA,Skudai,Johor,Freehold,"Terrace House, Bungalow",600000.0,324.0,25.0
+TAMAN JOHOR,Tampoi,Johor,Freehold,"Terrace House, Bungalow",500000.0,259.0,19.0
+TAMAN NUSA PERINTIS I,Iskandar Puteri (Nusajaya),Johor,Freehold,"Terrace House, Bungalow",550000.0,188.0,13.0
+TAMAN PUTERA INDAH,Batu Pahat,Johor,Freehold,"Terrace House, Cluster House",400000.0,214.0,193.0
+TAMAN SCIENTEX,Pasir Gudang,Johor,Freehold,"Terrace House, Cluster House",380000.0,387.0,177.0
+TAMAN DESA TEBRAU,Tebrau,Johor,Freehold,"Terrace House, Cluster House",930000.0,470.0,163.0
+TAMAN AUSTIN DUTA,Tebrau,Johor,Freehold,"Terrace House, Cluster House",781000.0,493.0,92.0
+TAMAN PULAI INDAH,Skudai,Johor,Freehold,"Terrace House, Cluster House",460000.0,321.0,92.0
+TAMAN PULAI MUTIARA 2,Skudai,Johor,Freehold,"Terrace House, Cluster House",564230.0,252.0,88.0
+TAMAN SERI AUSTIN,Tebrau,Johor,Freehold,"Terrace House, Cluster House",719000.0,464.0,70.0
+TAMAN PULAI MUTIARA,Skudai,Johor,Freehold,"Terrace House, Cluster House",550000.0,426.0,68.0
+BANDAR JAYA PUTRA,Tebrau,Johor,Freehold,"Terrace House, Cluster House",1201200.0,549.0,62.0
+TAMAN ADDA,Tebrau,Johor,Freehold,"Terrace House, Cluster House",1000000.0,387.0,47.0
+TAMAN PULAI HIJAUAN,Skudai,Johor,Freehold,"Terrace House, Cluster House",655000.0,329.0,38.0
+SIERRA PERDANA,Masai,Johor,Freehold,"Terrace House, Cluster House",495000.0,361.0,33.0
+TAMAN IMPIAN EMAS,Tebrau,Johor,Freehold,"Terrace House, Semi D",738000.0,328.0,349.0
+BANDAR DATO' ONN,Tebrau,Johor,Freehold,"Terrace House, Semi D",750000.0,450.0,203.0
+TAMAN CENTURY,Johor Bahru,Johor,Freehold,"Terrace House, Semi D",609000.0,327.0,78.0
+TAMAN MEGAH RIA,Masai,Johor,Freehold,"Terrace House, Semi D",436440.0,320.0,76.0
+TAMAN PELANGI INDAH,Ulu Tiram,Johor,Freehold,"Terrace House, Semi D",600000.0,308.0,73.0
+TAMAN SETIA MUTIARA,Kluang,Johor,Freehold,"Terrace House, Semi D",150000.0,107.0,69.0
+TAMAN MOUNT AUSTIN,Tebrau,Johor,Freehold,"Terrace House, Semi D",700000.0,441.0,55.0
+TAMAN LAGENDA PUTRA,Kulai,Johor,Freehold,"Terrace House, Semi D",589000.0,328.0,32.0
+TAMAN MUTIARA PERDANA,Batu Pahat,Johor,Freehold,"Terrace House, Semi D",573000.0,206.0,31.0
+TAMAN KLUANG BARAT,Kluang,Johor,Freehold,"Terrace House, Semi D",176500.0,215.0,30.0
+TAMAN DESARU UTAMA,Pengerang,Johor,Leasehold,"Terrace House, Semi D",330000.0,251.0,26.0
+DANGA SUTERA,Skudai,Johor,Freehold,"Terrace House, Semi D",892000.0,531.0,17.0
+POLO PARK,Johor Bahru,Johor,Freehold,Town House,320000.0,272.0,20.0
+NUSAVILLA,Iskandar Puteri (Nusajaya),Johor,Freehold,Town House,500000.0,320.0,12.0
+SRI AWANA,Skudai,Johor,Freehold,Town House,280000.0,274.0,12.0
+LEISURE FARM,Gelang Patah,Johor,Freehold,"Town House, Semi D",650000.0,422.0,28.0
+Pangsapuri Ikhlas,Jitra,Kedah,Freehold,Apartment,165000.0,241.0,14.0
+PERMAIPURA VILLA,Sungai Lalang,Kedah,Freehold,Bungalow,548000.0,98.0,14.0
+BANDAR SEJAHTERA FASA 3,Pokok Sena,Kedah,Freehold,"Cluster House, Terrace House",408900.0,156.0,10.0
+Taman Setia Jaya,Alor Setar,Kedah,Freehold,Flat,68000.0,124.0,19.0
+Taman Jati,Kulim,Kedah,Freehold,Flat,120000.0,206.0,16.0
+LA CASA LUNAS,Lunas,Kedah,Freehold,Semi D,516888.0,227.0,71.0
+BANDAR AMANJAYA (ZON KENANGA),Sungai Petani,Kedah,Freehold,Semi D,320000.0,136.0,37.0
+TAMAN CASSIA,Alor Setar,Kedah,Freehold,Semi D,300000.0,117.0,30.0
+TAMAN BUKIT REBANA [SP HEIGHTS],Sungai Petani,Kedah,Freehold,Semi D,300000.0,114.0,28.0
+TAMAN CAHAYA KRISTAL II,Bandar Baharu,Kedah,Freehold,Semi D,438488.0,152.0,10.0
+TAMAN KULIM SQUARE,Lunas,Kedah,Freehold,Semi D,445000.0,270.0,10.0
+TAMAN SERI ROTAN,Kuala Kedah,Kedah,Freehold,Semi D,379505.0,147.0,10.0
+PUTERI RESIDENCE,Sungai Petani,Kedah,Freehold,Semi D,420000.0,131.0,10.0
+BANDAR AMANJAYA (ZON ANGGERIK),Sungai Petani,Kedah,Freehold,"Semi D, Terrace House",215000.0,166.0,63.0
+BANDAR PUTERI JAYA SEKSYEN 3,Sungai Petani,Kedah,Freehold,"Semi D, Terrace House",370000.0,118.0,26.0
+TAMAN KENARI FASA 1,Kulim,Kedah,Freehold,"Semi D, Terrace House",300000.0,207.0,26.0
+TAMAN PERMAI UTAMA,Gurun,Kedah,Freehold,"Semi D, Terrace House",220000.0,154.0,19.0
+TAMAN FLORA,Kuala Kedah,Kedah,Freehold,"Semi D, Terrace House",421925.0,189.0,16.0
+BANDAR PERMATA LUNAS,Lunas,Kedah,Freehold,"Semi D, Terrace House",412500.0,172.0,14.0
+TAMAN TIRAM,Kulim,Kedah,Freehold,"Semi D, Terrace House",280000.0,177.0,13.0
+TAMAN DARULAMAN PERDANA,Sungai Petani,Kedah,Freehold,"Semi D, Terrace House",380000.0,186.0,13.0
+TAMAN BAYU PELANGI,Sungai Lalang,Kedah,Freehold,"Semi D, Terrace House",269800.0,188.0,12.0
+TAMAN GAMELAN,Kuala Kedah,Kedah,Freehold,"Semi D, Terrace House",350260.0,148.0,11.0
+TAMAN CEMPAKA INDAH,Teloi Kiri,Kedah,Freehold,"Semi D, Terrace House",195000.0,122.0,10.0
+TAMAN KUCAI INDAH II,Lunas,Kedah,Freehold,"Semi D, Terrace House",490000.0,303.0,10.0
+RESIDENSI MESRA,Gurun,Kedah,Freehold,Terrace House,232000.0,141.0,76.0
+TAMAN AROWANA,Sungai Petani,Kedah,Freehold,Terrace House,276800.0,230.0,74.0
+TAMAN PUTERI,Padang Serai,Kedah,Freehold,Terrace House,204000.0,159.0,72.0
+BANDAR SRI ASTANA,Sungai Petani,Kedah,Freehold,Terrace House,260000.0,177.0,70.0
+TAMAN RIA,Sungai Petani,Kedah,Freehold,Terrace House,220000.0,152.0,59.0
+BANDAR LAGUNA MERBOK (TERES),Sungai Petani,Kedah,Freehold,Terrace House,400000.0,264.0,57.0
+BANDAR PUTERI JAYA SEKSYEN 1,Sungai Petani,Kedah,Freehold,Terrace House,228000.0,200.0,55.0
+BANDAR AMANJAYA (KEMBOJA),Sungai Petani,Kedah,Freehold,Terrace House,230000.0,165.0,54.0
+TAMAN RIA JAYA FASA 2,Sungai Petani,Kedah,Freehold,Terrace House,197500.0,146.0,48.0
+TAMAN MAHSURI,Padang Serai,Kedah,Freehold,Terrace House,270000.0,208.0,46.0
+TAMAN LAGENDA,Padang Serai,Kedah,Freehold,Terrace House,292500.0,214.0,46.0
+RPA SRI TANJUNG,Sungai Petani,Kedah,Freehold,Terrace House,27049.0,43.0,41.0
+BANDAR UTAMA,Sungai Petani,Kedah,Freehold,"Terrace House, Bungalow",262500.0,164.0,34.0
+BANDAR AMANJAYA (ZON MAWAR),Sungai Petani,Kedah,Freehold,"Terrace House, Bungalow",240000.0,168.0,27.0
+TAMAN PERMAIPURA,Sungai Lalang,Kedah,Freehold,"Terrace House, Bungalow",240000.0,150.0,14.0
+TAMAN PULASAN,Alor Setar,Kedah,Freehold,"Terrace House, Bungalow",561200.0,270.0,13.0
+TAMAN SERAI RESIDENSI,Padang Serai,Kedah,Freehold,"Terrace House, Semi D",199800.0,143.0,136.0
+TAMAN KELISA RIA FASA 1,Sungai Petani,Kedah,Freehold,"Terrace House, Semi D",250000.0,153.0,35.0
+TAMAN RIA MESRA 2,Gurun,Kedah,Freehold,"Terrace House, Semi D",210000.0,136.0,30.0
+BANDAR MUTIARA,Sungai Petani,Kedah,Freehold,"Terrace House, Semi D",280000.0,186.0,25.0
+TAMAN SAGA,Kulim,Kedah,Freehold,"Terrace House, Semi D",269500.0,166.0,21.0
+TAMAN KULIM UTAMA,Kulim,Kedah,Freehold,"Terrace House, Semi D",490000.0,232.0,16.0
+TAMAN CAHAYA SURIA,Alor Setar,Kedah,Freehold,"Terrace House, Semi D",311111.0,206.0,16.0
+TAMAN DELIMA,Sungai Petani,Kedah,Freehold,"Terrace House, Semi D",260000.0,115.0,15.0
+TAMAN GURUN JAYA,Gurun,Kedah,Freehold,"Terrace House, Semi D",206500.0,107.0,14.0
+TAMAN BUNGA RAYA,Sungai Petani,Kedah,Freehold,"Terrace House, Semi D",230000.0,131.0,11.0
+MUTIARA RESIDENCE,Jitra,Kedah,Freehold,"Terrace House, Semi D",410400.0,267.0,11.0
+ASTANA PARK HOMES - VILLA NATURA,Sungai Petani,Kedah,Freehold,"Terrace House, Semi D, Bungalow",378000.0,202.0,22.0
+BUKIT BANYAN,Sungai Petani,Kedah,Freehold,"Town House, Terrace House, Semi D",499900.0,267.0,51.0
+MUKIM MACHANG,Machang,Kelantan,Freehold,Bungalow,342500.0,97.0,10.0
+KOTA SERIBONG,Padang Enggang,Kelantan,Leasehold,Terrace House,470000.0,361.0,15.0
+KAMPUNG CHERANG RUKU,Cherang Ruku,Kelantan,Freehold,"Terrace House, Bungalow",325000.0,61.0,13.0
+Sri Penara,Cheras,Kuala Lumpur,Leasehold,Apartment,280000.0,433.0,39.0
+Rampai Court,Wangsa Maju,Kuala Lumpur,Freehold,Apartment,231000.0,390.0,28.0
+"Teratai Mewah Apartment Block 15,17,19,21",Setapak,Kuala Lumpur,Freehold,Apartment,250000.0,373.0,27.0
+Apartment Sri Rakyat,Bukit Jalil,Kuala Lumpur,Freehold,Apartment,235000.0,352.0,20.0
+Pangsapuri Permai,Sungai Besi,Kuala Lumpur,Leasehold,Apartment,210000.0,325.0,17.0
+Tasik Heights Apartment,Bandar Tasik Selatan,Kuala Lumpur,Leasehold,Apartment,290000.0,332.0,16.0
+Vista Angkasa,Pantai,Kuala Lumpur,Leasehold,Apartment,330000.0,406.0,16.0
+Vista Mutiara,Kepong,Kuala Lumpur,Leasehold,Apartment,379000.0,364.0,16.0
+Taman LTAT,Bukit Jalil,Kuala Lumpur,Leasehold,Apartment,220000.0,304.0,15.0
+Abadi Indah,Taman Desa,Kuala Lumpur,Leasehold,Apartment,300000.0,327.0,14.0
+Vista Magna,Kepong,Kuala Lumpur,Leasehold,Apartment,285000.0,331.0,13.0
+Anjung Hijau (Greenfields),Bukit Jalil,Kuala Lumpur,Freehold,Apartment,425000.0,429.0,13.0
+DAMANSARA HEIGHTS (BUKIT DAMANSARA),Damansara Heights,Kuala Lumpur,Freehold,"Bungalow, Semi D",3600000.0,700.0,51.0
+KB JINJANG UTARA,Jinjang,Kuala Lumpur,Leasehold,"Bungalow, Semi D",675000.0,207.0,12.0
+OVERSEAS UNION GARDEN,Jalan Klang Lama (Old Klang Road),Kuala Lumpur,Freehold,"Bungalow, Terrace House",923000.0,519.0,41.0
+BUKIT BANDARAYA,Bangsar,Kuala Lumpur,Freehold,"Bungalow, Terrace House",2500000.0,751.0,19.0
+SETAPAK JAYA,Setapak,Kuala Lumpur,Leasehold,Cluster House,240000.0,385.0,23.0
+TAMAN BRINGIN,Jinjang,Kuala Lumpur,Leasehold,"Cluster House, Terrace House",300000.0,472.0,13.0
+Sri Putramas,Jalan Kuching,Kuala Lumpur,Freehold,Condominium,650000.0,619.0,60.0
+Royal Domain Sri Putramas 2,Jalan Kuching,Kuala Lumpur,Freehold,Condominium,850000.0,669.0,59.0
+Angkasa Condominiums,Cheras,Kuala Lumpur,Freehold,Condominium,600000.0,648.0,50.0
+Villa Wangsamas,Wangsa Maju,Kuala Lumpur,Freehold,Condominium,500000.0,386.0,34.0
+Seni Mont Kiara,Mont Kiara,Kuala Lumpur,Freehold,Condominium,2380000.0,801.0,32.0
+Residensi 22,Mont Kiara,Kuala Lumpur,Freehold,Condominium,2200000.0,1074.0,31.0
+Endah Regal Condominium,Sri Petaling,Kuala Lumpur,Leasehold,Condominium,550000.0,482.0,30.0
+The Z Residence,Bukit Jalil,Kuala Lumpur,Freehold,Condominium,628000.0,493.0,30.0
+The Park Residences 1,Kampung Kerinchi (Bangsar South),Kuala Lumpur,Leasehold,Condominium,1180000.0,601.0,24.0
+11 Mont Kiara @ MK11,Mont Kiara,Kuala Lumpur,Freehold,Condominium,2800000.0,839.0,24.0
+28 Mont Kiara @ MK28,Mont Kiara,Kuala Lumpur,Freehold,Condominium,2050000.0,756.0,19.0
+The Capers @ Sentul East,Sentul,Kuala Lumpur,Freehold,Condominium,760000.0,590.0,19.0
+Seksyen 2 Wangsa Maju Flat,Wangsa Maju,Kuala Lumpur,Leasehold,Flat,224500.0,380.0,54.0
+Seksyen 1 Wangsa Maju Flat,Wangsa Maju,Kuala Lumpur,Leasehold,Flat,220000.0,414.0,29.0
+Flat Taman Melati,Setapak,Kuala Lumpur,Freehold,Flat,207500.0,326.0,28.0
+Bandar Tasik Selatan (Low Cost),Bandar Tasik Selatan,Kuala Lumpur,Leasehold,Flat,190000.0,282.0,25.0
+Seksyen 4 Wangsa Maju Flat,Wangsa Maju,Kuala Lumpur,Leasehold,Flat,210000.0,398.0,21.0
+Bukit Cheras,Cheras,Kuala Lumpur,Freehold,Flat,160000.0,263.0,18.0
+Taman Sri Sentosa,Jalan Klang Lama (Old Klang Road),Kuala Lumpur,Leasehold,Flat,180000.0,257.0,15.0
+Taman Pusat Kepong,Segambut,Kuala Lumpur,Leasehold,Flat,182500.0,195.0,14.0
+Taman Intan Baiduri,Batu Caves,Kuala Lumpur,Leasehold,Flat,130000.0,183.0,13.0
+Mutiara Magna,Kepong,Kuala Lumpur,Leasehold,Flat,220000.0,326.0,12.0
+Flat Danau Kota,Setapak,Kuala Lumpur,Leasehold,Flat,190000.0,271.0,12.0
+Miharja (LRT Maluri),Cheras,Kuala Lumpur,Leasehold,Flat,245000.0,305.0,11.0
+Prima Setapak Flat,Setapak,Kuala Lumpur,Leasehold,"Flat, Condominium",350000.0,301.0,19.0
+LUCKY GARDEN (JALAN BANGSAR),Bangsar,Kuala Lumpur,Freehold,"Semi D, Terrace House",1270000.0,624.0,13.0
+OUG Parklane,Jalan Klang Lama (Old Klang Road),Kuala Lumpur,Freehold,Service Residence,580000.0,611.0,102.0
+Dorsett Residences Bukit Bintang,Bukit Bintang,Kuala Lumpur,Freehold,Service Residence,1482000.0,1664.0,94.0
+Platinum Suites (The Face Suites),KLCC,Kuala Lumpur,Freehold,Service Residence,1453150.0,1827.0,46.0
+Solaris Dutamas,Dutamas,Kuala Lumpur,Freehold,Service Residence,900000.0,801.0,23.0
+St Regis,KL Sentral,Kuala Lumpur,Freehold,Service Residence,3715000.0,2264.0,21.0
+Maxim Citylights @ Sentul Kl,Sentul,Kuala Lumpur,Leasehold,Service Residence,365000.0,371.0,21.0
+Kuchai Avenue,Kuchai Lama,Kuala Lumpur,Freehold,Service Residence,580000.0,626.0,20.0
+Arcoris Residences,Mont Kiara,Kuala Lumpur,Freehold,Service Residence,1010000.0,1106.0,19.0
+Verve Suites KL South,Jalan Klang Lama (Old Klang Road),Kuala Lumpur,Freehold,Service Residence,778800.0,1097.0,18.0
+Desa Green,Taman Desa,Kuala Lumpur,Freehold,Service Residence,480000.0,624.0,17.0
+Verve Suites,Mont Kiara,Kuala Lumpur,Freehold,Service Residence,719000.0,885.0,17.0
+VIM 3 @ Desa Park North,Kepong,Kuala Lumpur,Leasehold,Service Residence,412500.0,774.0,16.0
+TAMAN TUN DR ISMAIL,Taman Tun Dr Ismail,Kuala Lumpur,Freehold,Terrace House,1585000.0,768.0,64.0
+KEPONG BARU,Kepong,Kuala Lumpur,"Leasehold, Freehold",Terrace House,667500.0,445.0,48.0
+HAPPY GARDEN,Jalan Klang Lama (Old Klang Road),Kuala Lumpur,"Leasehold, Freehold",Terrace House,912500.0,445.0,38.0
+ALAM DAMAI,Cheras,Kuala Lumpur,Leasehold,Terrace House,859000.0,458.0,34.0
+TAMAN MIDAH,Cheras,Kuala Lumpur,Freehold,Terrace House,815000.0,490.0,34.0
+TAMAN SRI SINAR,Segambut,Kuala Lumpur,Freehold,Terrace House,495000.0,663.0,34.0
+TAMAN BUKIT MALURI,Kepong,Kuala Lumpur,Leasehold,Terrace House,890000.0,456.0,33.0
+DESA SETAPAK,Wangsa Maju,Kuala Lumpur,Freehold,Terrace House,413500.0,659.0,22.0
+KEPONG GARDEN,Kepong,Kuala Lumpur,Freehold,Terrace House,780000.0,434.0,21.0
+TAMAN SETAPAK (SETAPAK GARDEN),Setapak,Kuala Lumpur,Freehold,Terrace House,600000.0,341.0,21.0
+WANGSA MELAWATI,Wangsa Maju,Kuala Lumpur,Freehold,Terrace House,720000.0,578.0,21.0
+BUKIT ANGGERIK,Cheras,Kuala Lumpur,Leasehold,Terrace House,493000.0,308.0,18.0
+BANGSAR BARU,Bangsar,Kuala Lumpur,Freehold,"Terrace House, Bungalow",1710000.0,814.0,19.0
+BANDAR TUN RAZAK,Cheras,Kuala Lumpur,Leasehold,"Terrace House, Cluster House",335000.0,298.0,14.0
+TAMAN DATUK SENU,Sentul,Kuala Lumpur,Leasehold,"Terrace House, Cluster House",330000.0,513.0,14.0
+BANDAR BARU SRI PETALING,Sri Petaling,Kuala Lumpur,Leasehold,"Terrace House, Semi D",845000.0,511.0,63.0
+TAMAN SETAPAK INDAH,Setapak,Kuala Lumpur,Leasehold,Town House,510000.0,431.0,13.0
+Taman Mutiara,Labuan,Labuan,Leasehold,Flat,130000.0,169.0,25.0
+Costa Mahkota,Melaka City,Melaka,Leasehold,Apartment,204500.0,336.0,20.0
+Kota Laksamana Utama,Melaka City,Melaka,Leasehold,Apartment,126000.0,155.0,14.0
+Ixora Apartment,Bukit Baru,Melaka,Freehold,Apartment,332500.0,259.0,14.0
+Kenanga (Park View Court),Melaka City,Melaka,Freehold,Apartment,220000.0,230.0,13.0
+Tun Perak,Melaka City,Melaka,Leasehold,Apartment,478000.0,440.0,11.0
+TAMAN ANJUNG GAPAM,Bemban,Melaka,Leasehold,Bungalow,632000.0,136.0,32.0
+TAMAN VISTA KIRANA,Bukit Katil,Melaka,Leasehold,"Bungalow, Semi D",707000.0,136.0,17.0
+TAMAN BUKIT SERINDIT,Melaka City,Melaka,Freehold,"Bungalow, Semi D",392500.0,219.0,12.0
+TAMAN KRUBONG PERDANA,Krubong,Melaka,Freehold,"Bungalow, Terrace House",443800.0,317.0,19.0
+TAMAN PAYA RUMPUT PERDANA,Paya Rumput,Melaka,Freehold,"Bungalow, Town House",627500.0,158.0,28.0
+TAMAN SUNGAI RAMBAI MESRA,Sungai Rambai,Melaka,Freehold,Cluster House,367000.0,136.0,29.0
+TAMAN MUHIBAH FASA 16,Merlimau,Melaka,Freehold,Cluster House,398800.0,147.0,10.0
+TAMAN NURI,Durian Tunggal,Melaka,Freehold,"Cluster House, Semi D",699000.0,213.0,24.0
+TAMAN TIANG DUA BESTARI,Ayer Molek,Melaka,Freehold,"Cluster House, Terrace House",269100.0,175.0,34.0
+TAMAN MAYANG LESTARI,Jasin,Melaka,Leasehold,"Cluster House, Terrace House",285000.0,164.0,15.0
+TAMAN MAJU JASIN,Jasin,Melaka,Leasehold,"Cluster House, Terrace House",220000.0,144.0,11.0
+TAMAN KASA HEIGHTS,Alor Gajah,Melaka,Freehold,"Cluster House, Town House, Terrace House",205000.0,173.0,10.0
+Taman Anika,Melaka City,Melaka,Leasehold,Flat,78000.0,138.0,17.0
+TAMAN MASJID TANAH PERDANA,Masjid Tanah,Melaka,Freehold,Semi D,410000.0,128.0,14.0
+TAMAN RAMBAI TENGAH SENTOSA,Bukit Rambai,Melaka,Freehold,Semi D,422300.0,126.0,10.0
+TAMAN DESA BERTAM,Tanjong Minyak,Melaka,Freehold,"Semi D, Cluster House",453000.0,185.0,89.0
+TAMAN BUKIT KATIL DAMAI,Bukit Katil,Melaka,Leasehold,"Semi D, Terrace House",488000.0,338.0,38.0
+COUNTRY VILLAS,Bemban,Melaka,Leasehold,"Semi D, Terrace House",645000.0,388.0,24.0
+TAMAN GADONG UTAMA,Bertam,Melaka,"Freehold, Leasehold","Semi D, Terrace House",320000.0,204.0,11.0
+TAMAN PAYA RUMPUT INDAH,Paya Rumput,Melaka,Leasehold,"Semi D, Terrace House",235000.0,165.0,10.0
+TAMAN SAUJANA SEKSYEN 2 (TAMAN SETIA),Bukit Katil,Melaka,Freehold,"Semi D, Town House",200000.0,136.0,10.0
+Atlantis Residences (Pangsapuri Atlantis Kota Syahbandar),Melaka City,Melaka,Leasehold,Service Residence,330000.0,457.0,13.0
+SCIENTEX JASIN MUTIARA,Bemban,Melaka,Freehold,Terrace House,255600.0,218.0,391.0
+BANDAR SCIENTEX JASIN,Jasin,Melaka,Freehold,Terrace House,180000.0,188.0,301.0
+TAMAN IMPIANA KESANG,Bemban,Melaka,Leasehold,Terrace House,128730.0,92.0,288.0
+TAMAN TASIK UTAMA,Bukit Katil,Melaka,Leasehold,Terrace House,270000.0,175.0,123.0
+TAMAN KRUBONG HEIGHTS,Krubong,Melaka,Freehold,Terrace House,405800.0,290.0,57.0
+BANDAR JASIN BISTARI,Bemban,Melaka,Leasehold,Terrace House,230435.0,150.0,56.0
+TAMAN PUNCAK KASIH MERLIMAU PASIR,Merlimau,Melaka,Freehold,Terrace House,179800.0,127.0,53.0
+TAMAN BERTAM HEIGHTS,Tanjong Minyak,Melaka,Freehold,Terrace House,180000.0,138.0,50.0
+TAMAN KRUBONG JAYA,Krubong,Melaka,Leasehold,Terrace House,290000.0,223.0,47.0
+TAMAN TEHEL INDAH,Bemban,Melaka,Freehold,Terrace House,497000.0,337.0,41.0
+TAMAN DESA TANJUNG MINYAK (SERI BERTAM),Tanjong Minyak,Melaka,Leasehold,Terrace House,260000.0,181.0,39.0
+TAMAN MOLEK RESIDEN,Ayer Molek,Melaka,Freehold,Terrace House,435800.0,312.0,37.0
+TAMAN SATU KRUBONG,Krubong,Melaka,Freehold,"Terrace House, Bungalow",685000.0,234.0,24.0
+TAMAN PENGKALAN MINYAK DAMAI,Ayer Molek,Melaka,Freehold,"Terrace House, Cluster House",337834.0,129.0,16.0
+TAMAN ANJUNG SUNGAI PETAI,Sungei Petai,Melaka,Freehold,"Terrace House, Semi D",298800.0,194.0,140.0
+TAMAN BERTAM SETIA,Tanjong Minyak,Melaka,Freehold,"Terrace House, Semi D",344000.0,203.0,17.0
+TAMAN MUZAFFAR SHAH,Bukit Katil,Melaka,Leasehold,"Terrace House, Semi D",280000.0,172.0,16.0
+TAMAN BUKIT TEMBAKAU,Umbai,Melaka,Freehold,"Terrace House, Semi D",260000.0,156.0,13.0
+TAMAN BUKIT RAMBAI (BARU),Bukit Rambai,Melaka,Freehold,"Terrace House, Semi D",280000.0,182.0,11.0
+TAMAN PADANG TEMU PERMATA,Melaka City,Melaka,Freehold,"Terrace House, Semi D",250000.0,147.0,10.0
+TAMAN SAUJANA INDAH,Bukit Katil,Melaka,Freehold,"Terrace House, Semi D, Town House",315000.0,194.0,19.0
+TAMAN MERDEKA,Batu Berendam,Melaka,Leasehold,"Terrace House, Town House",326500.0,182.0,20.0
+TAMAN KASAWARI,Durian Tunggal,Melaka,Freehold,"Terrace House, Town House",413000.0,244.0,12.0
+TAMAN TANJUNG MINYAK PERDANA,Tanjong Minyak,Melaka,Leasehold,"Town House, Terrace House",300000.0,197.0,28.0
+TAMAN KOTA LAKSAMANA SEKSYEN 1,Melaka City,Melaka,Leasehold,"Town House, Terrace House",470000.0,279.0,15.0
+Seremban Putra,Sikamat,Negeri Sembilan,Freehold,Apartment,185000.0,221.0,23.0
+PD Perdana,Port Dickson,Negeri Sembilan,Freehold,Apartment,95000.0,126.0,21.0
+Desa Palma,Nilai,Negeri Sembilan,Freehold,Apartment,180000.0,228.0,17.0
+Nilai 3,Nilai,Negeri Sembilan,Freehold,Apartment,100000.0,135.0,16.0
+PD Tiara Bay,Pasir Panjang,Negeri Sembilan,Freehold,Apartment,53000.0,130.0,15.0
+BANDAR TASIK SENANGIN,Lenggeng,Negeri Sembilan,Freehold,Bungalow,435000.0,105.0,53.0
+TAMAN LAVENDER HEIGHTS,Senawang,Negeri Sembilan,Freehold,Bungalow,440000.0,232.0,24.0
+RASAH KEMAYAN (KEMAYAN COUNTRY TOWNSHIP),Rasah,Negeri Sembilan,Freehold,Bungalow,620000.0,128.0,23.0
+TAMAN SENAWANG PERDANA,Rantau,Negeri Sembilan,Freehold,Bungalow,715000.0,172.0,15.0
+VISION HOMES,Seremban 2,Negeri Sembilan,Freehold,Cluster House,550000.0,274.0,14.0
+TAMAN JUJUR,Sikamat,Negeri Sembilan,Freehold,Cluster House,143000.0,129.0,11.0
+Laguna Condo Resort,Port Dickson,Negeri Sembilan,Freehold,Condominium,95000.0,117.0,20.0
+PD Marina World Resort,Port Dickson,Negeri Sembilan,Freehold,Condominium,90500.0,138.0,18.0
+Cocobay Resort,Port Dickson,Negeri Sembilan,Freehold,Condominium,90000.0,124.0,15.0
+Corus Paradise Resort,Port Dickson,Negeri Sembilan,Leasehold,Condominium,160000.0,219.0,15.0
+Glory Beach Resort,Port Dickson,Negeri Sembilan,Freehold,Condominium,300000.0,321.0,11.0
+Ocean View Resort,Port Dickson,Negeri Sembilan,Freehold,"Condominium, Service Residence",84000.0,111.0,16.0
+Rasah Jaya Flat,Rasah,Negeri Sembilan,Freehold,Flat,68000.0,102.0,22.0
+Rumah Pangsa College Heights Pajam,Mantin,Negeri Sembilan,Freehold,Flat,70000.0,114.0,20.0
+Taman Semarak II,Nilai,Negeri Sembilan,Freehold,Flat,120000.0,177.0,13.0
+TAMAN BUKIT SENAWANG PERDANA (PHASE 2),Rantau,Negeri Sembilan,Freehold,Semi D,605000.0,159.0,14.0
+TAMAN NESA DELIMA,Rantau,Negeri Sembilan,Freehold,Semi D,401531.0,143.0,10.0
+TAMAN BUKIT KEMAYAN (KEMAYAN HEIGHTS),Rasah,Negeri Sembilan,Freehold,Semi D,1103000.0,335.0,10.0
+TAMAN BANDAR UTAMA TAMPIN,Tampin,Negeri Sembilan,Freehold,"Semi D, Terrace House",299473.0,145.0,47.0
+NUSARI AMAN 2,Bandar Sri Sendayan,Negeri Sembilan,Freehold,"Semi D, Terrace House",500000.0,227.0,17.0
+TAMAN MANTIN PUTRA,Mantin,Negeri Sembilan,Freehold,"Semi D, Terrace House",550000.0,160.0,17.0
+TAMAN SRI NOVA UTAMA,Tampin,Negeri Sembilan,Freehold,"Semi D, Terrace House",401900.0,107.0,14.0
+TAMAN AMPANGAN,Paroi,Negeri Sembilan,Freehold,"Semi D, Terrace House",230000.0,145.0,12.0
+TAMAN SRI REMBAU,Rembau,Negeri Sembilan,Freehold,"Semi D, Terrace House",280000.0,128.0,11.0
+TAMAN WARISAN PUTERI,Ampangan,Negeri Sembilan,Freehold,"Semi D, Terrace House, Cluster House",433680.0,279.0,33.0
+Mesahill,Nilai,Negeri Sembilan,Freehold,Service Residence,260000.0,446.0,12.0
+TAMAN NUSA SERI CENGAL 2 & 3,Nilai,Negeri Sembilan,Leasehold,Terrace House,359000.0,194.0,210.0
+TAMAN AROWANA [LENGGENG],Lenggeng,Negeri Sembilan,Leasehold,Terrace House,476240.0,310.0,152.0
+EKA HEIGHTS - PRECINCT 3B,Labu,Negeri Sembilan,Freehold,Terrace House,400000.0,267.0,87.0
+BANDAR SPRINGHILL,Jimah,Negeri Sembilan,Freehold,Terrace House,220000.0,179.0,86.0
+S2 HEIGHTS,Seremban 2,Negeri Sembilan,Freehold,Terrace House,775800.0,464.0,83.0
+TAMAN SHOREA HARTAMAS,Pasir Panjang,Negeri Sembilan,Freehold,Terrace House,250000.0,183.0,82.0
+BAYU SUTERA - PRECINCT 3B,Jimah,Negeri Sembilan,Freehold,Terrace House,675888.0,483.0,80.0
+EKA HEIGHTS - PRECINCT 3A,Labu,Negeri Sembilan,Freehold,Terrace House,380000.0,267.0,78.0
+TAMAN NADA EMBUN,Rantau,Negeri Sembilan,Freehold,Terrace House,522000.0,368.0,77.0
+TAMAN SENGKANG,Pasir Panjang,Negeri Sembilan,Freehold,Terrace House,279000.0,192.0,72.0
+TAMAN KERSANI,Kuala Pilah,Negeri Sembilan,Freehold,Terrace House,298000.0,192.0,67.0
+IRAMA SENDAYAN 2C,Labu,Negeri Sembilan,Freehold,Terrace House,584999.0,417.0,67.0
+TAMAN SENIMAS,Kuala Pilah,Negeri Sembilan,Freehold,"Terrace House, Bungalow",199000.0,127.0,15.0
+TAMAN IRINGAN BAYU,Rantau,Negeri Sembilan,Freehold,"Terrace House, Semi D",472910.0,331.0,31.0
+TAMAN BUKIT GALENA,Seremban,Negeri Sembilan,Freehold,"Terrace House, Semi D",492500.0,276.0,24.0
+GARDEN CITY HOMES @ SEREMBAN 2,Seremban 2,Negeri Sembilan,Freehold,"Terrace House, Semi D",755000.0,236.0,11.0
+TAMAN IMPIAN PUTRA,Port Dickson,Negeri Sembilan,Leasehold,"Terrace House, Semi D",375000.0,173.0,11.0
+PARK AVENUE @ SEREMBAN 2,Seremban 2,Negeri Sembilan,Freehold,"Terrace House, Semi D, Bungalow",580000.0,207.0,11.0
+TAMAN GADONG JAYA,Labu,Negeri Sembilan,Freehold,"Terrace House, Town House",280000.0,207.0,60.0
+TAMAN JASMIN [SENAWANG],Senawang,Negeri Sembilan,Leasehold,"Town House, Terrace House",150000.0,153.0,17.0
+Golden Hills Resort (Amber Court Apartment),Genting Highlands,Pahang,Freehold,Apartment,211500.0,232.0,16.0
+Mawar Apartment,Genting Highlands,Pahang,Freehold,Apartment,550000.0,650.0,11.0
+Genting Permai Resort,Bentong,Pahang,Freehold,Apartment,210000.0,298.0,11.0
+"PRIMA PAHANG KAMPUNG BATU 6, LEPAR",Kuantan,Pahang,Leasehold,"Bungalow, Semi D",152660.0,51.0,16.0
+TAMAN MAWAR INDAH,Raub,Pahang,Freehold,Semi D,420000.0,131.0,25.0
+PERUMAHAN MAKMUR KUALA LANAR JAYA,Kuala Lipis,Pahang,Leasehold,Semi D,150000.0,48.0,18.0
+PERUMAHAN MAKMUR GAMBANG JAYA 1 (PRIMA),Kuantan,Pahang,Leasehold,Semi D,230000.0,79.0,13.0
+P/L : 2195 (PT24541-PT24570),Sungai Karang,Pahang,Freehold,Semi D,380000.0,121.0,10.0
+SUNGAI ISAP DAMAI,Kuantan,Pahang,Leasehold,"Semi D, Bungalow",260000.0,65.0,12.0
+INDERA SEMPURNA,Kuantan,Pahang,Leasehold,"Semi D, Terrace House",220000.0,158.0,15.0
+TAMAN RIMBA EMAS,Mentakab,Pahang,Freehold,"Semi D, Terrace House",397900.0,139.0,12.0
+BERJAYA PERMAI,Kuantan,Pahang,Leasehold,"Semi D, Terrace House",200000.0,96.0,10.0
+TAMAN KOTA SRI AHMAD SHAH,Kuantan,Pahang,Leasehold,Terrace House,582222.0,334.0,84.0
+PRIMA D'MARINA,Kuantan,Pahang,Leasehold,Terrace House,431167.0,271.0,82.0
+PER. PERMATANG BADAK PERDANA (PL 177521),Kuantan,Pahang,Leasehold,Terrace House,325000.0,232.0,78.0
+SERELYN AVENUE,Kuantan,Pahang,Leasehold,Terrace House,388000.0,231.0,69.0
+TAS,Kuantan,Pahang,Freehold,Terrace House,185000.0,158.0,43.0
+P/L 104445 & P/L 104476(LOT 2507),Kuantan,Pahang,Freehold,Terrace House,271790.0,174.0,38.0
+TAMAN GAMBANG DAMAI / DESA HIJAUAN,Hulu Lepar,Pahang,Leasehold,Terrace House,181500.0,141.0,30.0
+LOT 11666-11704 PERUMAHAN BALOK PERDANA,Sungai Karang,Pahang,Leasehold,Terrace House,315000.0,205.0,28.0
+TAMAN BUKIT KOMAN 2,Raub,Pahang,Leasehold,Terrace House,297600.0,208.0,27.0
+TAMAN BUKIT RANGIN PERDANA 1 & 2,Kuantan,Pahang,Leasehold,Terrace House,225000.0,173.0,24.0
+RUMAH MAKMUR KAMPUNG TIRAM,Kuantan,Pahang,Leasehold,Terrace House,80000.0,73.0,22.0
+TAMAN SRI LAYANG,Mentakab,Pahang,Freehold,Terrace House,170000.0,160.0,22.0
+TAMAN PSJ,Sungai Karang,Pahang,Freehold,"Terrace House, Semi D",265000.0,206.0,25.0
+SRI INDERAPURA,Kuantan,Pahang,Leasehold,"Terrace House, Semi D",192500.0,150.0,24.0
+TAMAN MH PERMATANG BADAK FASA 6 (P/L30398),Kuantan,Pahang,Freehold,"Terrace House, Semi D",289000.0,184.0,10.0
+TAMAN PERMAI INDAH FASA 2,Kuala Lipis,Pahang,Freehold,"Terrace House, Semi D",326300.0,115.0,10.0
+Sri Saujana,Georgetown,Penang,Leasehold,Apartment,260000.0,402.0,30.0
+Permata Apartment,Bukit Mertajam,Penang,Freehold,Apartment,180000.0,288.0,25.0
+Puncak Erskine,Tanjong Tokong,Penang,Freehold,Apartment,175000.0,290.0,24.0
+Taman Alor Vista,Bayan Lepas,Penang,Freehold,Apartment,200000.0,387.0,23.0
+Seri Semarak (Asia Heights),Ayer Itam,Penang,Freehold,Apartment,265000.0,425.0,22.0
+Jade View,Gelugor,Penang,Freehold,Apartment,293500.0,426.0,20.0
+Taman Desa Relau 2,Relau,Penang,Freehold,Apartment,290000.0,385.0,17.0
+Pangsapuri Nusa Indah,Bukit Mertajam,Penang,Freehold,Apartment,130000.0,173.0,17.0
+Sinar Bukit Dumbar,Jelutong,Penang,Freehold,Apartment,305000.0,436.0,16.0
+Gambier Heights,Gelugor,Penang,Freehold,Apartment,345000.0,486.0,16.0
+Idaman Seroja,Sungai Ara,Penang,Freehold,Apartment,249000.0,383.0,16.0
+Desa Bayan Apartment,Bayan Lepas,Penang,Freehold,Apartment,345000.0,486.0,16.0
+MINDEN HEIGHTS,Gelugor,Penang,Freehold,"Bungalow, Terrace House",2200000.0,465.0,19.0
+TAMAN SRI SERDANG,Kepala Batas,Penang,Freehold,"Bungalow, Terrace House",425000.0,236.0,12.0
+TAMAN DESA IMPIAN,Simpang Ampat,Penang,Freehold,Cluster House,880000.0,314.0,40.0
+TAMAN JERNIH,Bukit Mertajam,Penang,Freehold,Cluster House,414500.0,330.0,10.0
+BERTAM PERDANA,Kepala Batas,Penang,Freehold,"Cluster House, Terrace House",310000.0,260.0,55.0
+TAMAN CRESCENTIA,Batu Kawan,Penang,Leasehold,"Cluster House, Terrace House",350000.0,278.0,13.0
+BAYAN BARU,Bayan Baru,Penang,Leasehold,"Cluster House, Terrace House, Semi D",570000.0,376.0,37.0
+Mutiara Condominium,Bukit Mertajam,Penang,Freehold,Condominium,260000.0,351.0,28.0
+One Foresta,Bayan Lepas,Penang,Freehold,Condominium,450000.0,492.0,21.0
+The Spring,Jelutong,Penang,Leasehold,Condominium,520000.0,551.0,19.0
+Miami Green,Batu Ferringhi,Penang,Freehold,Condominium,530000.0,447.0,19.0
+Sandilands,Georgetown,Penang,Freehold,Condominium,838000.0,623.0,19.0
+Quayside Condominium,Tanjong Tokong,Penang,Freehold,Condominium,1510000.0,967.0,17.0
+Sunny Ville Condominium,Gelugor,Penang,Freehold,Condominium,390000.0,420.0,17.0
+Leader Garden,Tanjung Bungah,Penang,Freehold,Condominium,440000.0,396.0,17.0
+Regency Heights Condo,Sungai Ara,Penang,Freehold,Condominium,502500.0,396.0,16.0
+Skyridge Garden,Tanjong Tokong,Penang,Freehold,Condominium,835000.0,633.0,16.0
+One Imperial,Sungai Ara,Penang,Freehold,Condominium,575000.0,494.0,15.0
+Mont Residence,Tanjong Tokong,Penang,Freehold,Condominium,760000.0,795.0,15.0
+Taman Terubong Indah (Majestic Heights),Ayer Itam,Penang,Freehold,Flat,170000.0,243.0,47.0
+Green Garden,Ayer Itam,Penang,Freehold,Flat,180000.0,335.0,45.0
+Rifle Range,Ayer Itam,Penang,Leasehold,Flat,72000.0,188.0,37.0
+Farlim 4,Ayer Itam,Penang,Freehold,Flat,130000.0,254.0,37.0
+Mahsuri Flat,Bayan Baru,Penang,Leasehold,Flat,156000.0,308.0,37.0
+Taman Terubong Jaya,Ayer Itam,Penang,Leasehold,Flat,165000.0,272.0,34.0
+Taman Pelangi,Perai,Penang,Leasehold,Flat,100000.0,168.0,29.0
+Idaman Selasih,Bayan Lepas,Penang,Freehold,Flat,320000.0,472.0,25.0
+Taman Pauh Indah,Perai,Penang,Freehold,Flat,185000.0,316.0,25.0
+I-Park Apartment,Sungai Ara,Penang,Freehold,Flat,250000.0,375.0,23.0
+Mutiara Idaman 1,Jelutong,Penang,Leasehold,Flat,282000.0,452.0,23.0
+Desa Permai Indah Flat,Sungai Dua,Penang,Leasehold,Flat,180000.0,328.0,22.0
+TAMAN DESA IMPIAN 2 (FASA 2),Bukit Mertajam,Penang,Freehold,Semi D,900000.0,311.0,54.0
+TAMAN JASA RIA (JESSELTON HILLS),Bukit Mertajam,Penang,Freehold,Semi D,1043800.0,336.0,18.0
+TAMAN JAWI JAYA,Sungai Jawi,Penang,Freehold,Semi D,459000.0,195.0,16.0
+TAMAN BUKIT,Bukit Mertajam,Penang,Freehold,Semi D,620000.0,248.0,12.0
+SANCTUARY GARDEN,Bukit Mertajam,Penang,Freehold,Semi D,860000.0,329.0,11.0
+TAMAN PENAGA INDAH,Penaga,Penang,Freehold,Semi D,499000.0,214.0,10.0
+RESIDENSI MERBOK,Nibong Tebal,Penang,Freehold,"Semi D, Bungalow",960000.0,274.0,55.0
+TAMAN SERI IPIL,Nibong Tebal,Penang,Freehold,"Semi D, Bungalow",520000.0,185.0,27.0
+TAMAN DESA DAMAI,Bukit Mertajam,Penang,Freehold,"Semi D, Terrace House",499800.0,281.0,15.0
+ISLAND PARK,Jelutong,Penang,Freehold,"Semi D, Terrace House",1800000.0,590.0,15.0
+TAMAN VILLA MUTIARA INDAH,Sungai Bakap,Penang,Freehold,"Semi D, Terrace House",670000.0,246.0,11.0
+TAMAN BERTAM INDAH,Kepala Batas,Penang,Freehold,"Semi D, Terrace House",310000.0,215.0,11.0
+TAMAN IDAMAN,Simpang Ampat,Penang,Freehold,"Semi D, Terrace House",495000.0,299.0,11.0
+TAMAN MENGKUANG JAYA,Bukit Mertajam,Penang,Freehold,"Semi D, Terrace House",512500.0,348.0,10.0
+TAMAN PENAGA PERMAI,Penaga,Penang,Freehold,"Semi D, Terrace House, Town House",350000.0,245.0,12.0
+RAINTREE PARK2,Sungai Bakap,Penang,Freehold,"Semi D, Town House, Terrace House",526500.0,321.0,12.0
+The Tamarind,Tanjong Tokong,Penang,Freehold,Service Residence,855000.0,767.0,16.0
+Straits Quay (The Suites at Waterside),Tanjong Tokong,Penang,Freehold,Service Residence,1130000.0,851.0,12.0
+Utama @ Utropolis,Batu Kawan,Penang,Freehold,Service Residence,320000.0,628.0,11.0
+SCIENTEX SUNGAI DUA,Tasek Gelugor,Penang,Freehold,Terrace House,331800.0,304.0,593.0
+TAMAN SEPADU JAYA (D'HALONA PLACE),Penaga,Penang,Freehold,Terrace House,307000.0,277.0,141.0
+MEKARSARI UNGGUL (FASA III),Kepala Batas,Penang,Freehold,Terrace House,613000.0,366.0,71.0
+BANDAR TASEK MUTIARA,Simpang Ampat,Penang,Freehold,Terrace House,425000.0,270.0,58.0
+BANDAR SEBERANG JAYA,Seberang Jaya,Penang,Leasehold,Terrace House,280000.0,294.0,49.0
+TAMAN WIDURI,Sungai Jawi,Penang,Freehold,Terrace House,260000.0,224.0,42.0
+TAMAN PERDA INDAH,Tasek Gelugor,Penang,Freehold,Terrace House,343800.0,157.0,29.0
+ISLAND GLADES,Jelutong,Penang,Freehold,Terrace House,1000000.0,632.0,29.0
+TAMAN PERDANA,Simpang Ampat,Penang,Freehold,Terrace House,575000.0,374.0,25.0
+TAMAN INDERAWASIH,Perai,Penang,Freehold,Terrace House,514000.0,318.0,24.0
+TANJONG PINANG,Tanjong Tokong,Penang,Freehold,Terrace House,3450000.0,1146.0,24.0
+TAMAN MERAK,Simpang Ampat,Penang,Freehold,Terrace House,297500.0,291.0,22.0
+BERTAM PERDANA 2 - LAKEVIEW,Kepala Batas,Penang,Freehold,"Terrace House, Bungalow",618744.0,271.0,28.0
+BANDAR PUTRA BERTAM,Kepala Batas,Penang,Freehold,"Terrace House, Cluster House",350000.0,275.0,38.0
+TAMAN ILMU,Nibong Tebal,Penang,Freehold,"Terrace House, Cluster House",310500.0,251.0,10.0
+TAMAN HIJAUAN VALDOR,Sungai Bakap,Penang,Freehold,"Terrace House, Semi D",675000.0,241.0,85.0
+TAMAN SRI RAMBAI,Bukit Mertajam,Penang,Freehold,"Terrace House, Semi D",400000.0,179.0,31.0
+TAMAN CASSIA CEMPAKA,Batu Kawan,Penang,Freehold,"Terrace House, Semi D",625320.0,395.0,21.0
+TAMAN KOTA PERMAI,Bukit Mertajam,Penang,Freehold,"Terrace House, Semi D",470000.0,300.0,19.0
+PEARL IMPIANA,Simpang Ampat,Penang,Freehold,"Terrace House, Semi D",637000.0,504.0,18.0
+TAMAN BAYU MUTIARA,Bukit Mertajam,Penang,Freehold,"Terrace House, Semi D",650000.0,426.0,15.0
+TAMAN SINTAR INDAH,Nibong Tebal,Penang,Freehold,"Terrace House, Semi D",340000.0,251.0,13.0
+TAMAN PENAGA,Penaga,Penang,Freehold,"Terrace House, Semi D",237500.0,204.0,12.0
+TAMAN GAMELAN INDAH,Sungai Bakap,Penang,Freehold,"Terrace House, Semi D",408000.0,264.0,11.0
+RESIDENSI VILLA MUTIARA,Sungai Bakap,Penang,Freehold,"Terrace House, Semi D",560000.0,345.0,11.0
+TAMAN PERDANA (CASA PERDANA),Simpang Ampat,Penang,Freehold,"Terrace House, Semi D",575000.0,374.0,11.0
+TAMAN DESA MURNI,Butterworth,Penang,"Freehold, Leasehold","Terrace House, Town House",350000.0,396.0,27.0
+Samudera 1,Seri Manjong,Perak,Freehold,Apartment,223300.0,239.0,20.0
+Damiana,Ulu Bernam,Perak,Freehold,Apartment,163000.0,230.0,15.0
+Cherry,Ipoh,Perak,Freehold,Apartment,137500.0,180.0,14.0
+Alpine Village,Tambun,Perak,Leasehold,Apartment,250000.0,287.0,11.0
+TAMAN PINGGIR PENGKALAN PERMAI,Ipoh,Perak,Freehold,Cluster House,688000.0,262.0,38.0
+DESA PARK CHEMOR,Ipoh,Perak,Freehold,Cluster House,338000.0,270.0,26.0
+"ELEMEN @ 18, PENGKALAN",Ipoh,Perak,Leasehold,Cluster House,428000.0,168.0,24.0
+BB SETIA AWAN PERDANA RESIDEN 7,Sitiawan,Perak,Freehold,Cluster House,248000.0,129.0,20.0
+PANORAMA LAPANGAN SAUJANA (GREEN PARK),Ipoh,Perak,Leasehold,Cluster House,638800.0,236.0,20.0
+BANDAR LAHAT MINES,Lahat,Perak,Leasehold,Cluster House,499440.0,232.0,16.0
+BANDAR BARU SEGARI,Lumut,Perak,Leasehold,Cluster House,328000.0,156.0,16.0
+LAKEVIEW RESIDENCE,Bidor,Perak,Leasehold,Cluster House,398700.0,150.0,13.0
+TAMAN KINDING FLORA,Ipoh,Perak,Leasehold,Cluster House,252500.0,192.0,12.0
+BB SETIA AWAN PERDANA RESIDEN 2,Sitiawan,Perak,Freehold,"Cluster House, Bungalow",240000.0,117.0,14.0
+TAMAN PENGKALAN SURIA,Ipoh,Perak,Leasehold,"Cluster House, Semi D",435240.0,182.0,11.0
+BANDAR BARU SETIA AWAN PERDANA,Sitiawan,Perak,Freehold,"Cluster House, Terrace House",245000.0,139.0,128.0
+TAMAN KURAU MURNI (BATU KURAU),Batu Kurau,Perak,Freehold,"Cluster House, Terrace House",318800.0,177.0,11.0
+BB SETIA AWAN PERDANA RESIDEN 1,Sitiawan,Perak,Freehold,"Cluster House, Terrace House",220000.0,138.0,10.0
+TAMAN PERMAI BIDOR,Bidor,Perak,Leasehold,"Cluster House, Terrace House, Semi D",364000.0,153.0,14.0
+Bercham Prima (Ipoh Kiara),Ipoh,Perak,Leasehold,Condominium,315000.0,259.0,14.0
+Crystal Creek Resort,Taiping,Perak,Freehold,Condominium,300000.0,220.0,12.0
+BANDAR CYBER IPOH,Ipoh,Perak,Leasehold,Semi D,609000.0,252.0,34.0
+"TAMAN PELANGI INDAH, SITIAWAN",Sitiawan,Perak,Freehold,Semi D,480000.0,166.0,21.0
+TAMAN WANGSA PERMAI (P/L 13367),Lumut,Perak,Freehold,Semi D,498800.0,178.0,14.0
+"LOT 5330, GURNEY",Sitiawan,Perak,Freehold,Semi D,628000.0,210.0,12.0
+TAMAN AIR PUTIH PERMAI (PL 30779),Taiping,Perak,Freehold,Semi D,369900.0,128.0,11.0
+TAMAN KLEBANG EHSAN,Ipoh,Perak,Leasehold,"Semi D, Bungalow",328800.0,145.0,12.0
+TAMAN SAUJANA MANJUNG,Sitiawan,Perak,Leasehold,"Semi D, Terrace House",329890.0,279.0,45.0
+TAMAN PERTAMA,Ipoh,Perak,Leasehold,"Semi D, Terrace House",280000.0,174.0,31.0
+TAMAN PINJI MEWAH,Ipoh,Perak,Leasehold,"Semi D, Terrace House",285000.0,171.0,21.0
+TAMAN GEMILANG,Seri Iskandar,Perak,Leasehold,"Semi D, Terrace House",370000.0,126.0,13.0
+TAMAN SERAI MERBAU,Bagan Serai,Perak,Freehold,"Semi D, Terrace House",317800.0,187.0,11.0
+PEKAN BARU,Parit Buntar,Perak,Leasehold,"Semi D, Terrace House",210000.0,212.0,10.0
+TAMAN LAGENDA TROPIKA TAPAH,Chenderiang,Perak,Freehold,Terrace House,229954.0,130.0,414.0
+TAMAN LAGENDA AMAN,Tapah,Perak,Leasehold,Terrace House,219300.0,168.0,363.0
+PRIMA @ SITIAWAN,Sitiawan,Perak,Freehold,Terrace House,270610.0,193.0,102.0
+PERWIRA SERI ISKANDAR,Seri Iskandar,Perak,Leasehold,Terrace House,145000.0,104.0,92.0
+BANDAR BARU LAPANGAN,Ipoh,Perak,Leasehold,Terrace House,588800.0,369.0,91.0
+TAMAN MESRA IMPIAN,Kampar,Perak,Leasehold,Terrace House,300000.0,214.0,83.0
+TAMAN SERI MAHKOTA,Sitiawan,Perak,Freehold,Terrace House,250000.0,179.0,82.0
+TAMAN KINDING AKASIA,Ipoh,Perak,Leasehold,Terrace House,260000.0,186.0,82.0
+TAMAN RAIA UTAMA,Gopeng,Perak,Freehold,Terrace House,268000.0,192.0,71.0
+TAMAN POLO LAGUNA @ TAMBUN,Ipoh,Perak,Leasehold,Terrace House,487800.0,349.0,64.0
+TAMAN KAMUNTING PUTRA FASA 1,Kamunting,Perak,Leasehold,Terrace House,171000.0,131.0,63.0
+CHEMOR KAYANGAN,Ipoh,Perak,Leasehold,Terrace House,228000.0,156.0,62.0
+TAMAN LAGENDA TELUK INTAN,Teluk Intan,Perak,Leasehold,"Terrace House, Cluster House",236594.0,126.0,309.0
+TAMAN HARMONIS FASA 2,Seri Iskandar,Perak,Leasehold,"Terrace House, Cluster House",240000.0,175.0,64.0
+TAMAN CHEPOR MUTIARA,Ipoh,Perak,Leasehold,"Terrace House, Cluster House",398000.0,235.0,21.0
+SENTRAL BEHRANG,Ulu Bernam,Perak,Leasehold,"Terrace House, Cluster House",398888.0,285.0,17.0
+BANDAR BARU SRI KLEBANG,Chemor,Perak,Freehold,"Terrace House, Semi D",472800.0,235.0,164.0
+BANDAR SERI BOTANI,Ipoh,Perak,"Freehold, Leasehold","Terrace House, Semi D",496800.0,344.0,67.0
+LAKE GARDEN RESIDENCE(TAMAN KLEBANG TEKOMA,Ipoh,Perak,Leasehold,"Terrace House, Semi D",499800.0,357.0,54.0
+BANDAR UNIVERSITI,Seri Iskandar,Perak,Leasehold,"Terrace House, Semi D",250000.0,175.0,43.0
+TAMAN KAMPAR BESTARI,Kampar,Perak,Leasehold,"Terrace House, Semi D",269800.0,123.0,27.0
+RAZAKI,Ipoh,Perak,Leasehold,"Terrace House, Semi D",255000.0,157.0,21.0
+HUTAN MELINTANG RESIDENCE,Hutan Melintang,Perak,Freehold,"Terrace House, Semi D",438800.0,136.0,19.0
+TAMAN SERAI PERDANA,Bagan Serai,Perak,Freehold,"Terrace House, Semi D",263800.0,169.0,19.0
+TAMAN SILIBIN RIA,Ipoh,Perak,Leasehold,"Terrace House, Semi D",515000.0,293.0,14.0
+TAMAN SETIA RESIDEN,Sitiawan,Perak,Freehold,"Terrace House, Semi D",499000.0,251.0,12.0
+TAMAN MANJUNG POINT SEKSYEN 2(PL 12194),Lumut,Perak,Freehold,"Terrace House, Semi D",300000.0,238.0,12.0
+TAMAN SPPK,Ipoh,Perak,Leasehold,"Terrace House, Semi D",250000.0,146.0,11.0
+TAMAN CANNING,Ipoh,Perak,"Freehold, Leasehold","Terrace House, Semi D, Bungalow",425000.0,171.0,39.0
+MEDAN LAPANGAN CYBER,Ipoh,Perak,Leasehold,"Terrace House, Town House",434500.0,263.0,12.0
+SUNWAY CITY,Tambun,Perak,Leasehold,"Town House, Terrace House",608000.0,294.0,11.0
+TAMAN DESA SAUJANA,Arau,Perlis,Freehold,"Semi D, Terrace House",414428.0,205.0,29.0
+PUTRAJAYA PRESINT 14,Putrajaya,Putrajaya,Freehold,"Bungalow, Terrace House",1260000.0,569.0,18.0
+Putra Damai,Putrajaya,Putrajaya,Freehold,Flat,250000.0,357.0,12.0
+PUTRAJAYA PRESINT 11,Putrajaya,Putrajaya,Freehold,"Semi D, Terrace House",880000.0,465.0,18.0
+Melinsung Summer Bay Resort,Papar,Sabah,Leasehold,Apartment,115000.0,218.0,54.0
+Beverly Hills 3,Kota Kinabalu,Sabah,Leasehold,Apartment,250000.0,415.0,35.0
+Cyber City Apartment 1,Penampang,Sabah,Freehold,Apartment,240000.0,480.0,35.0
+Beverly Hills 2,Kota Kinabalu,Sabah,Leasehold,Apartment,300000.0,372.0,23.0
+Taman Penampang Apartment,Penampang,Sabah,Leasehold,Apartment,340000.0,336.0,19.0
+Vista Seri Melalin,Tuaran,Sabah,Leasehold,Apartment,290000.0,287.0,19.0
+Angkasa Apartment,Kota Kinabalu,Sabah,Leasehold,Apartment,300000.0,353.0,17.0
+Sejati Ujana,Sandakan,Sabah,Leasehold,Apartment,200000.0,292.0,16.0
+Putatan Platinum Apartment,Penampang,Sabah,Freehold,Apartment,294000.0,346.0,16.0
+Delta Heights,Penampang,Sabah,Leasehold,Apartment,350000.0,375.0,15.0
+Seri Maju & Sepangar Ria,Kota Kinabalu,Sabah,Leasehold,Apartment,172000.0,265.0,15.0
+University Apartment Phase 1,Kota Kinabalu,Sabah,Leasehold,Apartment,245000.0,400.0,14.0
+Taman Ketiau,Penampang,Sabah,Leasehold,Flat,190000.0,284.0,19.0
+Taman Suria,Penampang,Sabah,Leasehold,Flat,250000.0,326.0,16.0
+Telipok Square,Tuaran,Sabah,Leasehold,Flat,137000.0,215.0,14.0
+Taman Mawar,Sandakan,Sabah,Leasehold,Flat,125000.0,228.0,11.0
+TAMAN T&G PHASE 7,Kota Marudu,Sabah,Leasehold,Semi D,500000.0,238.0,14.0
+TAMAN SRI PERDANA,Lahad Datu,Sabah,Leasehold,"Semi D, Terrace House",550000.0,191.0,15.0
+KINGFISHER PARK PH2,Kota Kinabalu,Sabah,Leasehold,"Semi D, Terrace House",950000.0,256.0,11.0
+BANDAR SRI INDAH,Tawau,Sabah,Leasehold,Terrace House,385000.0,169.0,34.0
+TAMAN INDAH JAYA,Sandakan,Sabah,Leasehold,Terrace House,395000.0,256.0,28.0
+TAMAN MAWAR,Sandakan,Sabah,Leasehold,Terrace House,325000.0,273.0,24.0
+TAMAN APAS PERMAI,Tawau,Sabah,Leasehold,Terrace House,195000.0,117.0,16.0
+TAMAN INDAH PERMAI,Kota Kinabalu,Sabah,Leasehold,Terrace House,520000.0,335.0,16.0
+TAMAN FAJAR,Sandakan,Sabah,Leasehold,Terrace House,320000.0,222.0,15.0
+TAMAN AMAN 3,Lahad Datu,Sabah,Leasehold,Terrace House,375000.0,176.0,14.0
+TAMAN GRANDVIEW,Sandakan,Sabah,Leasehold,Terrace House,430000.0,208.0,13.0
+TAMAN SEMARAK MEGAH,Tawau,Sabah,Leasehold,Terrace House,365000.0,250.0,12.0
+TAMAN KHAZANAH INDAH,Lahad Datu,Sabah,Leasehold,Terrace House,250000.0,152.0,12.0
+TAMAN TELUK VILLA,Penampang,Sabah,Leasehold,Terrace House,432500.0,256.0,12.0
+TAMAN JUMBO,Penampang,Sabah,Leasehold,Terrace House,350000.0,390.0,12.0
+TAMAN SEMARAK,Tawau,Sabah,Leasehold,"Terrace House, Cluster House",200000.0,205.0,26.0
+TAMAN MEGAH JAYA,Tawau,Sabah,Leasehold,"Terrace House, Semi D",400000.0,220.0,19.0
+LUYANG PERDANA,Kota Kinabalu,Sabah,Leasehold,"Town House, Semi D, Terrace House",1040000.0,537.0,16.0
+Vista Ilmu,Kota Samarahan,Sarawak,Leasehold,Apartment,180000.0,240.0,15.0
+Bahagia Residences,Miri,Sarawak,Leasehold,Apartment,260000.0,306.0,14.0
+MJC Courtyard Sanctuary,Kuching,Sarawak,Leasehold,Apartment,295000.0,345.0,11.0
+Hann's Residence,Sibu,Sarawak,Leasehold,Apartment,450000.0,593.0,11.0
+Taman Desa Ilmu,Kota Samarahan,Sarawak,Leasehold,"Apartment, Flat",170000.0,259.0,18.0
+TAMAN PIASAU,Miri,Sarawak,Leasehold,Bungalow,680000.0,114.0,11.0
+JALAN STAMPIN,Kuching,Sarawak,Leasehold,"Bungalow, Semi D",865000.0,274.0,10.0
+Jazz Suites @ Vivacity,Kuching,Sarawak,Leasehold,Condominium,650000.0,647.0,13.0
+P' Residence,Kuching,Sarawak,Leasehold,Condominium,470000.0,408.0,11.0
+Skyvilla Residences,Kuching,Sarawak,Leasehold,Condominium,450000.0,400.0,11.0
+Taman Suria Jaya,Kuching,Sarawak,Leasehold,Flat,105000.0,163.0,15.0
+Taman Sri Harmoni,Kuching,Sarawak,Leasehold,Flat,66000.0,133.0,12.0
+Taman Sri Cahaya,Kuching,Sarawak,Leasehold,"Flat, Apartment",65500.0,139.0,12.0
+TABUAN LARU,Kuching,Sarawak,"Freehold, Leasehold","Semi D, Terrace House",509444.0,250.0,12.0
+MATANG JAYA,Kuching,Sarawak,Leasehold,"Semi D, Terrace House, Bungalow",350000.0,151.0,36.0
+TAMAN SAMARINDAH,Kota Samarahan,Sarawak,"Freehold, Leasehold",Terrace House,300000.0,168.0,59.0
+TAMAN TUNKU,Miri,Sarawak,Leasehold,Terrace House,288000.0,182.0,59.0
+RPR BANDAR BARU SAMARIANG,Kuching,Sarawak,Leasehold,Terrace House,200000.0,195.0,39.0
+TAMAN DURANDA EMAS,Kuching,Sarawak,Leasehold,Terrace House,180000.0,174.0,32.0
+ULU SUNGAI MERAH,Sibu,Sarawak,Leasehold,Terrace House,430000.0,173.0,31.0
+BANDAR SIBU JAYA,Sibu,Sarawak,Leasehold,Terrace House,200000.0,130.0,31.0
+TAMAN SOON HUP(JALAN PERMAI),Sibu,Sarawak,Leasehold,Terrace House,377500.0,179.0,28.0
+UNI GARDEN,Kota Samarahan,Sarawak,Freehold,Terrace House,510000.0,238.0,26.0
+TAMAN BINTULU JAYA,Bintulu,Sarawak,Freehold,Terrace House,80000.0,44.0,19.0
+CENTRAL CITY,Kota Samarahan,Sarawak,Freehold,Terrace House,350000.0,205.0,19.0
+TAMAN MALIHAH,Kuching,Sarawak,Leasehold,Terrace House,248000.0,133.0,19.0
+TABUAN HEIGHTS,Kuching,Sarawak,Freehold,Terrace House,700000.0,302.0,17.0
+KENYALANG PARK,Kuching,Sarawak,Leasehold,"Terrace House, Bungalow",420000.0,220.0,19.0
+TAMAN DESA ILMU,Kota Samarahan,Sarawak,Leasehold,"Terrace House, Semi D",380000.0,175.0,36.0
+TABUAN JAYA,Kuching,Sarawak,Leasehold,"Terrace House, Semi D",625000.0,216.0,28.0
+BANDAR JAYA,Bintulu,Sarawak,Leasehold,"Terrace House, Semi D",500000.0,250.0,11.0
+GREENWOOD PARK,Kota Samarahan,Sarawak,Leasehold,"Terrace House, Semi D",341500.0,152.0,10.0
+Flora Damansara Apartment,Damansara Perdana,Selangor,Leasehold,Apartment,380000.0,447.0,85.0
+Mentari Court,Bandar Sunway,Selangor,Leasehold,Apartment,400000.0,516.0,66.0
+Pangsapuri Lagoon Perdana,Bandar Sunway,Selangor,Leasehold,Apartment,210000.0,235.0,37.0
+Pangsapuri Sri Kemuning,Shah Alam,Selangor,Freehold,Apartment,220000.0,292.0,32.0
+Akasia,Klang,Selangor,Freehold,Apartment,380000.0,505.0,27.0
+Taman Sri Tanjung,Semenyih,Selangor,Freehold,Apartment,296400.0,302.0,25.0
+Pelangi Damansara,Bandar Utama,Selangor,Leasehold,Apartment,450000.0,576.0,25.0
+Subang Perdana Goodyear Court 10,Subang Jaya,Selangor,Freehold,Apartment,374000.0,368.0,24.0
+Pangsapuri Kasuarina,Klang,Selangor,Freehold,Apartment,380000.0,420.0,24.0
+Pangsapuri Perdana Villa,Klang,Selangor,Freehold,Apartment,300000.0,310.0,23.0
+Subang Perdana Goodyear Court 7,Subang Jaya,Selangor,Freehold,Apartment,376500.0,393.0,20.0
+Suria Kipark Damansara,Kepong,Selangor,Freehold,Apartment,445000.0,454.0,20.0
+TAMAN PANTAI SEPANG PUTRA,Sepang,Selangor,Freehold,Bungalow,400000.0,109.0,35.0
+TWIN PALM,Cheras,Selangor,Freehold,Bungalow,2700000.0,506.0,17.0
+SETIA ECO PARK,Setia Alam,Selangor,Freehold,"Bungalow, Semi D",2450000.0,534.0,53.0
+ECO ARDENCE,Setia Alam,Selangor,Freehold,"Bungalow, Semi D",1880000.0,708.0,36.0
+KAMPUNG PANDAN DALAM,Ampang,Selangor,Leasehold,"Bungalow, Semi D",372500.0,128.0,10.0
+BUKIT SENTOSA,Serendah,Selangor,Freehold,"Bungalow, Terrace House",290000.0,232.0,166.0
+ECO GRANDEUR,Ijok,Selangor,Leasehold,"Bungalow, Terrace House",700000.0,438.0,35.0
+VALENCIA,Sungai Buloh,Selangor,"Leasehold, Freehold","Bungalow, Terrace House",2400000.0,570.0,23.0
+SETIA ECO GLADES,Cyberjaya,Selangor,Freehold,"Bungalow, Terrace House",1200000.0,513.0,21.0
+SEKSYEN 5,Petaling Jaya,Selangor,"Leasehold, Freehold","Bungalow, Terrace House",1700000.0,339.0,21.0
+SS1 PETALING JAYA,Petaling Jaya,Selangor,Freehold,"Bungalow, Terrace House",1365000.0,310.0,18.0
+DESA PINGGIRAN PUTRA,Dengkil,Selangor,Leasehold,"Bungalow, Terrace House",402500.0,203.0,18.0
+ARA DAMANSARA,Ara Damansara,Selangor,Freehold,"Bungalow, Terrace House",1300000.0,729.0,17.0
+TAMAN BUKIT INDAH,Ulu Klang,Selangor,Leasehold,"Bungalow, Terrace House",717500.0,548.0,16.0
+TAMAN BERKELEY,Kapar,Selangor,Freehold,"Bungalow, Terrace House",540000.0,275.0,13.0
+BANDAR NUSA RHU,Shah Alam,Selangor,Leasehold,"Bungalow, Terrace House",591500.0,400.0,10.0
+SEKSYEN 4,Petaling Jaya,Selangor,Leasehold,"Bungalow, Terrace House",1237500.0,254.0,10.0
+SEKSYEN 17,Petaling Jaya,Selangor,Freehold,"Bungalow, Terrace House, Semi D",948000.0,464.0,39.0
+SEKSYEN 13 SHAH ALAM,Shah Alam,Selangor,Leasehold,"Bungalow, Terrace House, Semi D",1750000.0,452.0,24.0
+BANDAR BESTARI@CANARY GARDEN,Klang,Selangor,Freehold,Cluster House,1449665.0,620.0,40.0
+JALAN JENDERAM-SALAK,Dengkil,Selangor,Freehold,Cluster House,1438800.0,616.0,21.0
+PUNCAK ALAM,Bandar Puncak Alam,Selangor,Leasehold,"Cluster House, Terrace House",400000.0,288.0,71.0
+ECO MAJESTIC,Beranang,Selangor,Freehold,"Cluster House, Terrace House",854000.0,431.0,58.0
+TAMAN AIR MANIS,Sabak Bernam,Selangor,Leasehold,"Cluster House, Terrace House",250000.0,179.0,50.0
+SETIA ECOHILL,Beranang,Selangor,Freehold,"Cluster House, Terrace House",680000.0,419.0,37.0
+BANDAR BUKIT MAHKOTA,Bangi,Selangor,Freehold,"Cluster House, Terrace House, Semi D",447500.0,337.0,24.0
+Palm Spring @ Damansara,Kota Damansara,Selangor,Leasehold,Condominium,530000.0,525.0,57.0
+Venice Hill,Cheras,Selangor,Freehold,Condominium,250000.0,162.0,39.0
+D'aman Crimson,Ara Damansara,Selangor,Freehold,Condominium,443000.0,420.0,35.0
+9Ine (Residensi Sembilan),Cheras,Selangor,Freehold,Condominium,970000.0,801.0,34.0
+1 Bukit Utama,Bandar Utama,Selangor,Freehold,Condominium,1269000.0,566.0,32.0
+Green Acre,Bandar Sungai Long,Selangor,Freehold,Condominium,550000.0,543.0,32.0
+Almyra Residences,Bangi,Selangor,Freehold,Condominium,450400.0,471.0,26.0
+Pelangi Utama,Bandar Utama,Selangor,Leasehold,Condominium,480000.0,460.0,25.0
+Residensi Adelia,Bangi,Selangor,Freehold,Condominium,350000.0,323.0,25.0
+Juta Mines,Seri Kembangan,Selangor,Leasehold,Condominium,450000.0,370.0,23.0
+Bandar Damai Perdana (Low Cost),Cheras,Selangor,Freehold,Condominium,457500.0,458.0,22.0
+Cyberia Smart Homes,Cyberjaya,Selangor,Freehold,Condominium,250000.0,238.0,22.0
+Taman Pandan Jaya,Cheras,Selangor,Leasehold,Flat,185000.0,313.0,39.0
+Taman Bunga Negara,Shah Alam,Selangor,Freehold,Flat,207500.0,287.0,28.0
+Seksyen 24 Shah Alam,Shah Alam,Selangor,Leasehold,Flat,185000.0,292.0,27.0
+Taman Bunga Raya,Serendah,Selangor,Leasehold,Flat,130000.0,187.0,27.0
+Desa Lembah Permai,Ampang,Selangor,Leasehold,Flat,67000.0,102.0,23.0
+Taman Pandan Indah,Ampang,Selangor,Leasehold,Flat,175000.0,264.0,23.0
+Desa Satu,Kepong,Selangor,Freehold,Flat,166500.0,253.0,20.0
+Apartment Dahlia,Serendah,Selangor,Freehold,Flat,65000.0,86.0,19.0
+Flat Taman Alam Megah,Shah Alam,Selangor,Freehold,Flat,169000.0,280.0,18.0
+Angsana,Subang Jaya,Selangor,Leasehold,Flat,211000.0,321.0,18.0
+Pangsapuri Baiduri,Beranang,Selangor,Freehold,Flat,119000.0,170.0,18.0
+Sri Angkasa Apartment,Klang,Selangor,Freehold,Flat,143000.0,221.0,16.0
+TAMAN SELAYANG MUTIARA,Selayang,Selangor,Leasehold,Semi D,450000.0,204.0,27.0
+TAMAN TTDI GROVE,Bangi,Selangor,Freehold,Semi D,1068000.0,334.0,25.0
+TAMAN AMAN PERDANA,Kapar,Selangor,Freehold,Semi D,850000.0,321.0,23.0
+P/L 3214 JALAN KEBUN,Klang,Selangor,Freehold,Semi D,599800.0,248.0,17.0
+TAMAN DESA PERMAI,Kapar,Selangor,Freehold,Semi D,575000.0,205.0,13.0
+SETIA DAMAI 15,Setia Alam,Selangor,Freehold,Semi D,1490000.0,536.0,13.0
+TAMAN SEGAR PERDANA,Cheras,Selangor,Leasehold,Semi D,929000.0,550.0,13.0
+GLENMARIE COVE,Klang,Selangor,Freehold,Semi D,1120000.0,334.0,11.0
+TAMAN SUNGAI SERDANG JAYA,Kapar,Selangor,Freehold,Semi D,504850.0,161.0,10.0
+SETIA IMPIAN 7,Setia Alam,Selangor,Freehold,Semi D,789000.0,473.0,10.0
+TAMAN SENTOSA IMPIAN,Dengkil,Selangor,Freehold,Semi D,910500.0,233.0,10.0
+AMBANG BOTANIC,Klang,Selangor,Freehold,"Semi D, Bungalow",1590000.0,546.0,58.0
+AMVERTON HILLS SUNGAI BULOH,Sungai Buloh,Selangor,Freehold,"Semi D, Bungalow",1703888.0,529.0,26.0
+SIERRAMAS,Sungai Buloh,Selangor,Freehold,"Semi D, Bungalow",2405000.0,670.0,14.0
+USJ 5,Subang Jaya,Selangor,Freehold,"Semi D, Bungalow, Terrace House",1600000.0,569.0,17.0
+JADE HILLS,Kajang,Selangor,Freehold,"Semi D, Cluster House, Bungalow",2330000.0,495.0,29.0
+SEKSYEN 30 SHAH ALAM,Shah Alam,Selangor,Freehold,"Semi D, Terrace House",495000.0,308.0,140.0
+LAMAN ASPIRASI (BANTING),Banting,Selangor,Freehold,"Semi D, Terrace House",180000.0,129.0,104.0
+TAMAN SRIKANDI,Telok Panglima Garang,Selangor,Leasehold,"Semi D, Terrace House",454220.0,258.0,35.0
+TAMAN SERI ANDALAS,Klang,Selangor,Leasehold,"Semi D, Terrace House",475000.0,287.0,30.0
+BK 8 - PERUMAHAN KINRARA,Bandar Kinrara,Selangor,Freehold,"Semi D, Terrace House",2400000.0,610.0,25.0
+BANDAR TROPICANA AMAN,Tanjong Duabelas,Selangor,Leasehold,"Semi D, Terrace House",1300000.0,488.0,25.0
+GLENMARIE INDUSTRIAL PARK,Glenmarie,Selangor,Freehold,"Semi D, Terrace House",1875000.0,617.0,22.0
+"KEMUNING UTAMA, SEKSYEN 33",Shah Alam,Selangor,Freehold,"Semi D, Terrace House",909000.0,465.0,20.0
+KOTA WARISAN,Dengkil,Selangor,Freehold,"Semi D, Terrace House",500000.0,260.0,19.0
+TAMAN SERI DAGANG 3,Tanjong Duabelas,Selangor,Leasehold,"Semi D, Terrace House",386500.0,189.0,18.0
+TAMAN SRI BAYU,Sepang,Selangor,Freehold,"Semi D, Terrace House",267000.0,123.0,17.0
+SS14,Subang Jaya,Selangor,Freehold,"Semi D, Terrace House",869000.0,390.0,16.0
+BUKIT JELUTONG,Shah Alam,Selangor,Freehold,"Semi D, Terrace House, Bungalow",980000.0,437.0,81.0
+BANDAR TASIK KESUMA,Beranang,Selangor,Freehold,"Semi D, Town House, Terrace House",400000.0,293.0,64.0
+Mkh Boulevard,Kajang,Selangor,Leasehold,Service Residence,299000.0,503.0,72.0
+Palmyra Residences,Bangi,Selangor,Freehold,Service Residence,432000.0,508.0,71.0
+Savanna Executive Suite @ Southville City,Bangi,Selangor,Freehold,Service Residence,360000.0,376.0,25.0
+Trefoil,Setia Alam,Selangor,Freehold,Service Residence,300000.0,548.0,25.0
+Koi Kinrara,Puchong,Selangor,Freehold,Service Residence,560000.0,532.0,24.0
+Amara,Batu Caves,Selangor,Freehold,Service Residence,430000.0,440.0,23.0
+Jadite Suites,Kajang,Selangor,Freehold,Service Residence,688800.0,472.0,22.0
+Casa Tiara Serviced Apartment,Subang Jaya,Selangor,Freehold,Service Residence,416500.0,550.0,22.0
+The Heritage Residence,Seri Kembangan,Selangor,Leasehold,Service Residence,297500.0,379.0,22.0
+Axis Residence @ Axis Pandan,Ampang,Selangor,Leasehold,Service Residence,330000.0,352.0,21.0
+Rhythm Avenue,Subang Jaya,Selangor,Freehold,Service Residence,290000.0,378.0,20.0
+Casa Subang,Subang Jaya,Selangor,Freehold,Service Residence,550000.0,516.0,18.0
+BANDAR BUKIT RAJA,Kapar,Selangor,Freehold,Terrace House,793888.0,496.0,292.0
+TAMAN BUNGA RAYA,Serendah,Selangor,Leasehold,Terrace House,200000.0,186.0,144.0
+TAMAN SENTOSA,Klang,Selangor,Freehold,Terrace House,450000.0,357.0,141.0
+PULAU INDAH,Klang,Selangor,Freehold,Terrace House,350000.0,252.0,122.0
+ELMINA WEST,Shah Alam,Selangor,Freehold,Terrace House,1060888.0,550.0,120.0
+SEKSYEN 29 SHAH ALAM,Shah Alam,Selangor,Leasehold,Terrace House,472800.0,309.0,118.0
+BUKIT BERUNTUNG,Serendah,Selangor,Freehold,Terrace House,300000.0,222.0,113.0
+CALEDONIA,Ijok,Selangor,Freehold,Terrace House,509800.0,392.0,109.0
+ALAM NUSANTARA,Setia Alam,Selangor,Freehold,Terrace House,872999.0,496.0,109.0
+BANDAR MAHKOTA BANTING (BANDAR BARU BROOKLANDS),Tanjong Duabelas,Selangor,Freehold,Terrace House,400000.0,258.0,102.0
+ALAM IMPIAN,Shah Alam,Selangor,Freehold,Terrace House,887800.0,488.0,99.0
+BANDAR TASIK PUTERI,Rawang,Selangor,Leasehold,Terrace House,400000.0,281.0,93.0
+SAUJANA IMPIAN,Kajang,Selangor,Freehold,"Terrace House, Bungalow",540000.0,330.0,38.0
+SS3 PETALING JAYA,Petaling Jaya,Selangor,Freehold,"Terrace House, Bungalow",1565000.0,423.0,32.0
+SEKSYEN 4 BANDAR BARU BANGI,Bangi,Selangor,Leasehold,"Terrace House, Bungalow",535000.0,279.0,26.0
+SEKSYEN 21,Petaling Jaya,Selangor,Freehold,"Terrace House, Bungalow",763000.0,493.0,23.0
+TAMAN SUNGAI BESI INDAH,Seri Kembangan,Selangor,"Leasehold, Freehold","Terrace House, Bungalow",480000.0,352.0,18.0
+TROPICANA INDAH RESORT HOMES,Kota Damansara,Selangor,Leasehold,"Terrace House, Bungalow",2400000.0,630.0,16.0
+TAMAN PINGGIRAN PUTRA SEKSYEN 2,Seri Kembangan,Selangor,Leasehold,"Terrace House, Bungalow",590000.0,291.0,15.0
+TAMAN PRIMA SAUJANA,Kajang,Selangor,Freehold,"Terrace House, Bungalow",525000.0,354.0,14.0
+SEKSYEN 18,Petaling Jaya,Selangor,"Leasehold, Freehold","Terrace House, Bungalow",695000.0,162.0,11.0
+MUTIARA DAMANSARA,Mutiara Damansara,Selangor,Freehold,"Terrace House, Bungalow",1430000.0,858.0,11.0
+ECO SANCTUARY,Tanjong Duabelas,Selangor,Leasehold,"Terrace House, Bungalow, Semi D",2161500.0,590.0,12.0
+BANDAR SERI COALFIELDS,Ijok,Selangor,Freehold,"Terrace House, Cluster House",913800.0,432.0,123.0
+ALAM SARI BANGI,Bangi,Selangor,Freehold,"Terrace House, Cluster House",857000.0,416.0,60.0
+BANDAR UTAMA BATANG KALI,Batang Kali,Selangor,Freehold,"Terrace House, Cluster House",232500.0,208.0,44.0
+TAMAN BUKIT RAHMAN PUTRA,Sungai Buloh,Selangor,Freehold,"Terrace House, Cluster House",700000.0,424.0,23.0
+"ALAM SURIA, PUNCAK ALAM",Bandar Puncak Alam,Selangor,Leasehold,"Terrace House, Cluster House",522500.0,288.0,16.0
+SEKSYEN 17 SHAH ALAM,Shah Alam,Selangor,"Freehold, Leasehold","Terrace House, Cluster House",416000.0,301.0,14.0
+KOTA BAYUEMAS,Klang,Selangor,Freehold,"Terrace House, Semi D",804000.0,446.0,88.0
+BANDAR COUNTRY HOMES,Rawang,Selangor,Freehold,"Terrace House, Semi D",420000.0,313.0,79.0
+SETIA IMPIAN 3,Setia Alam,Selangor,Freehold,"Terrace House, Semi D",930000.0,584.0,69.0
+KOTA EMERALD,Rawang,Selangor,Freehold,"Terrace House, Semi D",795000.0,383.0,52.0
+TAMAN MELAWATI,Ulu Klang,Selangor,Freehold,"Terrace House, Semi D",686000.0,483.0,51.0
+BANDAR TUN HUSSEIN ONN,Cheras,Selangor,Freehold,"Terrace House, Semi D",800000.0,390.0,43.0
+ELMINA EAST,Shah Alam,Selangor,Freehold,"Terrace House, Semi D",921500.0,547.0,36.0
+SS19,Subang Jaya,Selangor,Freehold,"Terrace House, Semi D",505000.0,541.0,32.0
+DESA RENING,Rasa,Selangor,Leasehold,"Terrace House, Semi D",439928.0,125.0,32.0
+EVERGREEN GARDEN RESIDENCE,Cyberjaya,Selangor,Freehold,"Terrace House, Semi D",1450000.0,457.0,27.0
+KINRARA RESIDENCE,Puchong,Selangor,Leasehold,"Terrace House, Semi D",1890000.0,717.0,24.0
+TAMAN UNIVERSITI INDAH,Seri Kembangan,Selangor,Freehold,"Terrace House, Semi D",582500.0,477.0,24.0
+BUKIT RIMAU,Klang,Selangor,Freehold,"Terrace House, Semi D, Bungalow",960000.0,410.0,19.0
+BANDAR MAHKOTA CHERAS,Cheras,Selangor,Freehold,"Terrace House, Semi D, Town House",640000.0,422.0,103.0
+GOODVIEW HEIGHTS,Kajang,Selangor,Freehold,"Terrace House, Town House",768800.0,542.0,67.0
+TAMAN PANDAN INDAH,Ampang,Selangor,Leasehold,"Terrace House, Town House",522500.0,511.0,38.0
+TAMAN BUKIT TERATAI,Ampang,Selangor,Leasehold,"Terrace House, Town House",505000.0,442.0,25.0
+TAMAN KAJANG UTAMA,Kajang,Selangor,Freehold,"Terrace House, Town House",410000.0,293.0,17.0
+ANDARI TOWNVILLA 1 & GARDENVILLE,Rawang,Selangor,Leasehold,Town House,310000.0,250.0,13.0
+TAMAN BUKIT SERDANG SEKSYEN 2,Seri Kembangan,Selangor,Freehold,Town House,455000.0,340.0,13.0
+CYBERIA SMART HOMES,Cyberjaya,Selangor,Freehold,Town House,352500.0,209.0,10.0
+COUNTRY HEIGHTS,Kajang,Selangor,"Leasehold, Freehold","Town House, Bungalow",499500.0,346.0,16.0
+TROPICANA GOLF & COUNTRY RESORT,Tropicana,Selangor,Leasehold,"Town House, Bungalow, Terrace House",2550000.0,580.0,18.0
+BANDAR SIERRA PUCHONG,Puchong,Selangor,Leasehold,"Town House, Terrace House",1260000.0,571.0,21.0
+TROPICANA HEIGHTS,Kajang,Selangor,Freehold,"Town House, Terrace House",833300.0,455.0,17.0
+TAMAN SRI SENTOSA,Klang,Selangor,Freehold,"Town House, Terrace House",420000.0,346.0,13.0
+Ladang Tok Pelam,Kuala Terengganu,Terengganu,Leasehold,Apartment,232000.0,276.0,28.0
+PULAU SERAI / G BINJAI / DARAT PELANDANG,Dungun,Terengganu,Freehold,"Bungalow, Semi D",340000.0,111.0,15.0
+KAMPUNG MAK CHILI,Kemaman,Terengganu,Freehold,"Bungalow, Semi D",330000.0,115.0,12.0
+PERKAMPUNGAN KERTIH,Kerteh,Terengganu,"Freehold, Leasehold","Bungalow, Semi D",360000.0,83.0,11.0
+KUALA BERANG,Hulu Terengganu,Terengganu,"Freehold, Leasehold","Bungalow, Terrace House",200000.0,62.0,53.0
+Kondo Rakyat,Kuala Ibai,Terengganu,Leasehold,Flat,66500.0,106.0,26.0
+KAMPUNG BATU TIONG / BATU GEDUP,Dungun,Terengganu,Freehold,Semi D,350000.0,98.0,13.0
+BERIS MERAGA,Kijal,Terengganu,Freehold,"Semi D, Terrace House",320000.0,126.0,81.0
+KAMPUNG BARU KERTIH,Kerteh,Terengganu,"Freehold, Leasehold","Semi D, Terrace House",350000.0,108.0,38.0
+BUKIT ANAK DARA,Kijal,Terengganu,Freehold,Terrace House,274850.0,177.0,30.0
+BANDAR BARU BUKIT MENTOK,Kemaman,Terengganu,Leasehold,Terrace House,213000.0,113.0,17.0
+KUALA BESUT,Besut,Terengganu,Freehold,"Terrace House, Bungalow, Semi D",335000.0,190.0,21.0

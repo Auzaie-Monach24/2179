@@ -1,0 +1,283 @@
+State,Type,Tenure,Median_Price,Median_PSF,Transactions
+Johor,Terrace House,Freehold,510901.63,329.97,6908.0
+Selangor,Terrace House,Freehold,678256.84,425.86,5046.0
+Perak,Terrace House,Leasehold,274504.47,195.87,2488.0
+Negeri Sembilan,Terrace House,Freehold,400901.02,269.76,2316.0
+Selangor,Terrace House,Leasehold,524733.93,351.02,2223.0
+Kedah,Terrace House,Freehold,260543.0,187.28,1614.0
+Perak,Terrace House,Freehold,319824.49,204.26,1549.0
+Penang,Terrace House,Freehold,488559.02,343.09,1509.0
+Melaka,Terrace House,Freehold,265185.66,209.22,1360.0
+Johor,"Terrace House, Cluster House",Freehold,629924.19,372.73,1192.0
+Johor,"Terrace House, Semi D",Freehold,608015.6,325.32,1118.0
+Johor,Terrace House,Leasehold,336920.61,237.13,917.0
+Johor,"Cluster House, Terrace House",Freehold,636511.09,344.75,902.0
+Kuala Lumpur,Condominium,Freehold,1040985.47,610.95,839.0
+Melaka,Terrace House,Leasehold,230511.19,159.84,822.0
+Johor,Service Residence,Freehold,632255.77,609.01,821.0
+Selangor,Apartment,Freehold,311475.5,344.56,755.0
+Pahang,Terrace House,Leasehold,328661.01,215.56,626.0
+Selangor,"Terrace House, Semi D",Freehold,740004.82,435.11,623.0
+Negeri Sembilan,Terrace House,Leasehold,351929.41,227.05,604.0
+Kuala Lumpur,Service Residence,Freehold,1345457.98,1130.78,575.0
+Pahang,Terrace House,Freehold,277341.96,187.61,489.0
+Penang,Flat,Freehold,164277.43,265.62,483.0
+Sarawak,Terrace House,Leasehold,330169.72,192.29,465.0
+Selangor,Condominium,Freehold,560754.82,436.56,452.0
+Selangor,"Semi D, Terrace House",Freehold,643566.0,308.66,447.0
+Johor,Apartment,Freehold,348193.62,340.32,439.0
+Selangor,Service Residence,Freehold,480089.2,531.94,435.0
+Johor,Flat,Freehold,148364.9,248.61,433.0
+Selangor,Apartment,Leasehold,302050.81,363.7,433.0
+Perak,"Terrace House, Cluster House",Leasehold,252084.29,145.78,411.0
+Penang,Condominium,Freehold,675048.57,570.18,408.0
+Johor,"Semi D, Terrace House",Freehold,707748.41,318.35,402.0
+Penang,Apartment,Freehold,260620.87,381.52,393.0
+Kuala Lumpur,Condominium,Leasehold,486622.07,414.17,376.0
+Johor,Apartment,Leasehold,314509.94,342.26,352.0
+Selangor,Flat,Leasehold,163882.23,242.77,349.0
+Kuala Lumpur,Terrace House,Freehold,919589.08,586.12,348.0
+Selangor,Condominium,Leasehold,473813.06,417.07,337.0
+Kedah,"Terrace House, Semi D",Freehold,247077.2,156.45,330.0
+Sabah,Apartment,Leasehold,228529.41,316.35,289.0
+Penang,Flat,Leasehold,158585.19,280.51,270.0
+Johor,Cluster House,Freehold,534120.0,213.15,255.0
+Selangor,"Terrace House, Cluster House",Freehold,760589.6,388.0,250.0
+Penang,"Terrace House, Semi D",Freehold,555853.12,291.56,247.0
+Kedah,"Semi D, Terrace House",Freehold,303153.33,172.75,243.0
+Perak,"Terrace House, Semi D",Freehold,442749.37,220.78,237.0
+Selangor,"Bungalow, Terrace House",Freehold,540553.19,301.42,235.0
+Kuala Lumpur,Flat,Leasehold,200964.91,323.14,228.0
+Sabah,Terrace House,Leasehold,366210.05,234.31,219.0
+Johor,"Cluster House, Semi D",Freehold,993685.05,408.17,218.0
+Selangor,Flat,Freehold,152451.83,219.42,218.0
+Perak,Terrace House,"Freehold, Leasehold",340043.98,232.7,216.0
+Kedah,Semi D,Freehold,401791.16,169.18,206.0
+Selangor,Service Residence,Leasehold,322050.51,457.01,198.0
+Johor,Condominium,Freehold,582938.14,416.39,194.0
+Melaka,"Terrace House, Semi D",Freehold,296544.5,189.06,191.0
+Kuala Lumpur,Terrace House,Leasehold,821204.19,467.24,191.0
+Perak,"Terrace House, Semi D",Leasehold,351326.67,228.22,180.0
+Kuala Lumpur,Apartment,Leasehold,292641.18,375.25,170.0
+Johor,Flat,Leasehold,141560.51,239.78,157.0
+Johor,"Bungalow, Terrace House",Freehold,373865.38,240.1,156.0
+Johor,"Cluster House, Terrace House","Freehold, Leasehold",553200.0,297.0,155.0
+Selangor,"Semi D, Terrace House",Leasehold,623008.63,334.24,153.0
+Perak,"Cluster House, Terrace House",Freehold,248770.47,141.74,149.0
+Selangor,Terrace House,"Leasehold, Freehold",574887.82,350.09,146.0
+Selangor,Semi D,Freehold,891326.52,317.62,132.0
+Selangor,"Cluster House, Terrace House",Leasehold,338016.53,242.96,121.0
+Penang,Semi D,Freehold,798532.23,286.75,121.0
+Perak,"Semi D, Terrace House",Leasehold,303500.42,210.82,120.0
+Negeri Sembilan,"Semi D, Terrace House",Freehold,367727.38,152.88,118.0
+Selangor,"Terrace House, Bungalow",Freehold,942618.64,439.06,118.0
+Negeri Sembilan,Bungalow,Freehold,509565.22,144.84,115.0
+Johor,Terrace House,"Leasehold, Freehold",482075.0,273.77,112.0
+Johor,Semi D,Freehold,1004647.71,481.38,109.0
+Sarawak,Terrace House,Freehold,363557.69,189.12,104.0
+Selangor,"Terrace House, Semi D, Town House",Freehold,640000.0,422.0,103.0
+Kuala Lumpur,Apartment,Freehold,266861.39,379.86,101.0
+Perak,Cluster House,Leasehold,440595.45,190.24,101.0
+Selangor,"Semi D, Bungalow",Freehold,1736643.76,559.2,98.0
+Selangor,"Cluster House, Terrace House",Freehold,786231.58,426.33,95.0
+Negeri Sembilan,Apartment,Freehold,127228.26,170.82,92.0
+Melaka,"Semi D, Cluster House",Freehold,453000.0,185.0,89.0
+Selangor,"Bungalow, Semi D",Freehold,2219438.2,604.38,89.0
+Selangor,"Bungalow, Terrace House",Leasehold,691179.78,385.3,89.0
+Kedah,"Terrace House, Bungalow",Freehold,296143.18,178.66,88.0
+Penang,Apartment,Leasehold,292136.36,381.84,88.0
+Kuala Lumpur,Terrace House,"Leasehold, Freehold",775755.81,445.0,86.0
+Sarawak,"Terrace House, Semi D",Leasehold,471705.88,195.51,85.0
+Selangor,"Terrace House, Town House",Freehold,696185.71,491.61,84.0
+Perak,Cluster House,Freehold,474904.76,232.81,84.0
+Melaka,Terrace House,"Freehold, Leasehold",317500.0,191.62,84.0
+Penang,"Semi D, Bungalow",Freehold,815121.95,244.7,82.0
+Selangor,"Semi D, Terrace House, Bungalow",Freehold,980000.0,437.0,81.0
+Terengganu,"Semi D, Terrace House",Freehold,320000.0,126.0,81.0
+Selangor,"Terrace House, Semi D",Leasehold,938451.85,371.71,79.0
+Penang,Terrace House,Leasehold,264805.19,259.84,77.0
+Penang,"Semi D, Terrace House",Freehold,765027.4,341.16,73.0
+Melaka,"Semi D, Terrace House",Leasehold,505194.44,330.64,72.0
+Kuala Lumpur,Flat,Freehold,167911.76,269.69,68.0
+Perak,"Terrace House, Semi D","Freehold, Leasehold",496800.0,344.0,67.0
+Negeri Sembilan,"Terrace House, Semi D",Freehold,527048.64,295.17,66.0
+Selangor,"Semi D, Town House, Terrace House",Freehold,400000.0,293.0,64.0
+Negeri Sembilan,Condominium,Freehold,127796.88,159.61,64.0
+Kuala Lumpur,"Terrace House, Semi D",Leasehold,845000.0,511.0,63.0
+Selangor,"Terrace House, Town House",Leasehold,515555.56,483.62,63.0
+Johor,Service Residence,Leasehold,395619.05,412.63,63.0
+Kuala Lumpur,Service Residence,Leasehold,1298809.52,695.48,63.0
+Johor,Terrace House,"Freehold, Leasehold",449354.84,334.31,62.0
+Selangor,Cluster House,Freehold,1445924.59,618.62,61.0
+Negeri Sembilan,"Terrace House, Town House",Freehold,280000.0,207.0,60.0
+Kuala Lumpur,"Bungalow, Terrace House",Freehold,1422383.33,592.47,60.0
+Sabah,Flat,Leasehold,181716.67,268.83,60.0
+Sarawak,Terrace House,"Freehold, Leasehold",300000.0,168.0,59.0
+Johor,"Semi D, Cluster House",Freehold,976949.15,331.39,59.0
+Perak,Semi D,Freehold,494277.59,170.79,58.0
+Selangor,"Terrace House, Bungalow",Leasehold,1072982.46,380.68,57.0
+Johor,"Terrace House, Bungalow",Freehold,555263.16,271.32,57.0
+Penang,"Cluster House, Terrace House",Freehold,310000.0,260.0,55.0
+Negeri Sembilan,Flat,Freehold,81018.18,124.09,55.0
+Terengganu,"Bungalow, Terrace House","Freehold, Leasehold",200000.0,62.0,53.0
+Selangor,Bungalow,Freehold,1151923.08,238.79,52.0
+Kedah,"Town House, Terrace House, Semi D",Freehold,499900.0,267.0,51.0
+Kuala Lumpur,"Bungalow, Semi D",Freehold,3600000.0,700.0,51.0
+Sabah,Apartment,Freehold,256941.18,437.96,51.0
+Sarawak,Apartment,Leasehold,285000.0,356.9,51.0
+Penang,Cluster House,Freehold,786900.0,317.2,50.0
+Johor,"Semi D, Terrace House",Leasehold,270000.0,245.0,49.0
+Perak,Apartment,Freehold,180326.53,219.39,49.0
+Penang,"Terrace House, Cluster House",Freehold,341770.83,270.0,48.0
+Pahang,"Terrace House, Semi D",Freehold,283955.56,180.89,45.0
+Melaka,Apartment,Leasehold,246933.33,305.11,45.0
+Selangor,"Bungalow, Terrace House","Leasehold, Freehold",2065909.09,459.75,44.0
+Johor,Town House,Freehold,358181.82,285.64,44.0
+Penang,Condominium,Leasehold,568590.91,559.61,44.0
+Melaka,"Town House, Terrace House",Leasehold,359302.33,225.6,43.0
+Selangor,Semi D,Leasehold,605675.0,316.45,40.0
+Perak,"Terrace House, Semi D, Bungalow","Freehold, Leasehold",425000.0,171.0,39.0
+Selangor,"Bungalow, Terrace House, Semi D",Freehold,948000.0,464.0,39.0
+Melaka,Cluster House,Freehold,375153.85,138.82,39.0
+Penang,Service Residence,Freehold,788717.95,753.64,39.0
+Terengganu,"Semi D, Terrace House","Freehold, Leasehold",350000.0,108.0,38.0
+Pahang,Apartment,Freehold,309052.63,372.11,38.0
+Penang,"Cluster House, Terrace House, Semi D",Leasehold,570000.0,376.0,37.0
+Sarawak,"Semi D, Terrace House, Bungalow",Leasehold,350000.0,151.0,36.0
+Johor,Bungalow,Freehold,1157366.67,269.0,36.0
+Pahang,Semi D,Freehold,408571.43,128.14,35.0
+Kedah,Flat,Freehold,91771.43,161.49,35.0
+Sarawak,Condominium,Leasehold,530571.43,494.26,35.0
+Melaka,"Cluster House, Terrace House",Freehold,269100.0,175.0,34.0
+Perak,Semi D,Leasehold,609000.0,252.0,34.0
+Negeri Sembilan,Semi D,Freehold,691626.76,206.06,34.0
+Negeri Sembilan,"Semi D, Terrace House, Cluster House",Freehold,433680.0,279.0,33.0
+Johor,Service Residence,"Leasehold, Freehold",365000.0,437.0,33.0
+Pahang,Terrace House,"Freehold, Leasehold",228818.18,168.73,33.0
+Melaka,Bungalow,Leasehold,632000.0,136.0,32.0
+Johor,Bungalow,Leasehold,335000.0,95.0,32.0
+Penang,"Bungalow, Terrace House",Freehold,1512903.23,376.35,31.0
+Pahang,Semi D,Leasehold,183548.39,61.0,31.0
+Johor,"Bungalow, Semi D",Freehold,638322.58,170.35,31.0
+Terengganu,Terrace House,Freehold,274850.0,177.0,30.0
+Selangor,"Town House, Terrace House",Freehold,654203.33,407.77,30.0
+Johor,"Semi D, Bungalow",Freehold,980000.0,275.0,29.0
+Perlis,"Semi D, Terrace House",Freehold,414428.0,205.0,29.0
+Selangor,"Semi D, Cluster House, Bungalow",Freehold,2330000.0,495.0,29.0
+Selangor,"Terrace House, Bungalow","Leasehold, Freehold",561551.72,279.93,29.0
+Negeri Sembilan,Terrace House,"Freehold, Leasehold",208620.69,141.86,29.0
+Penang,"Terrace House, Bungalow",Freehold,618744.0,271.0,28.0
+Melaka,"Bungalow, Town House",Freehold,627500.0,158.0,28.0
+Johor,"Town House, Semi D",Freehold,650000.0,422.0,28.0
+Terengganu,Apartment,Leasehold,232000.0,276.0,28.0
+Kuala Lumpur,"Terrace House, Cluster House",Leasehold,332500.0,405.5,28.0
+Penang,"Terrace House, Town House","Freehold, Leasehold",350000.0,396.0,27.0
+Terengganu,"Bungalow, Semi D",Freehold,335555.56,112.78,27.0
+Sarawak,Flat,Leasehold,87666.67,149.67,27.0
+Melaka,Apartment,Freehold,278333.33,245.04,27.0
+Sabah,"Terrace House, Cluster House",Leasehold,200000.0,205.0,26.0
+Johor,"Terrace House, Semi D",Leasehold,330000.0,251.0,26.0
+Terengganu,Flat,Leasehold,66500.0,106.0,26.0
+Sabah,"Semi D, Terrace House",Leasehold,719230.77,218.5,26.0
+Melaka,"Cluster House, Terrace House",Leasehold,257500.0,155.54,26.0
+Labuan,Flat,Leasehold,130000.0,169.0,25.0
+Pahang,"Semi D, Terrace House",Leasehold,212000.0,133.2,25.0
+Negeri Sembilan,Cluster House,Freehold,370920.0,210.2,25.0
+Melaka,"Terrace House, Bungalow",Freehold,685000.0,234.0,24.0
+Selangor,"Cluster House, Terrace House, Semi D",Freehold,447500.0,337.0,24.0
+Melaka,"Cluster House, Semi D",Freehold,699000.0,213.0,24.0
+Pahang,"Terrace House, Semi D",Leasehold,192500.0,150.0,24.0
+Selangor,"Bungalow, Terrace House, Semi D",Leasehold,1750000.0,452.0,24.0
+Melaka,Semi D,Freehold,415125.0,127.17,24.0
+Kuala Lumpur,Cluster House,Leasehold,240000.0,385.0,23.0
+Selangor,Town House,Freehold,410434.78,283.04,23.0
+Kedah,"Terrace House, Semi D, Bungalow",Freehold,378000.0,202.0,22.0
+Selangor,Terrace House,"Freehold, Leasehold",538750.0,335.64,22.0
+Terengganu,"Terrace House, Bungalow, Semi D",Freehold,335000.0,190.0,21.0
+Selangor,"Town House, Terrace House",Leasehold,1260000.0,571.0,21.0
+Sarawak,Terrace House,"Leasehold, Freehold",522857.14,240.1,21.0
+Melaka,Terrace House,"Leasehold, Freehold",273809.52,197.48,21.0
+Melaka,"Terrace House, Town House",Leasehold,326500.0,182.0,20.0
+Johor,Condominium,Leasehold,485000.0,439.0,20.0
+Kuala Lumpur,"Terrace House, Bungalow",Freehold,1710000.0,814.0,19.0
+Sarawak,"Terrace House, Bungalow",Leasehold,420000.0,220.0,19.0
+Selangor,"Terrace House, Semi D, Bungalow",Freehold,960000.0,410.0,19.0
+Melaka,"Bungalow, Terrace House",Freehold,443800.0,317.0,19.0
+Sabah,"Terrace House, Semi D",Leasehold,400000.0,220.0,19.0
+Melaka,"Terrace House, Semi D, Town House",Freehold,315000.0,194.0,19.0
+Kuala Lumpur,"Flat, Condominium",Leasehold,350000.0,301.0,19.0
+Selangor,"Town House, Bungalow, Terrace House",Leasehold,2550000.0,580.0,18.0
+Putrajaya,"Bungalow, Terrace House",Freehold,1260000.0,569.0,18.0
+Putrajaya,"Semi D, Terrace House",Freehold,880000.0,465.0,18.0
+Sarawak,"Apartment, Flat",Leasehold,170000.0,259.0,18.0
+Negeri Sembilan,"Town House, Terrace House",Leasehold,150000.0,153.0,17.0
+Terengganu,Terrace House,Leasehold,213000.0,113.0,17.0
+Selangor,"Semi D, Bungalow, Terrace House",Freehold,1600000.0,569.0,17.0
+Melaka,"Bungalow, Semi D",Leasehold,707000.0,136.0,17.0
+Johor,Apartment,"Freehold, Leasehold",410000.0,328.0,17.0
+Melaka,Flat,Leasehold,78000.0,138.0,17.0
+Melaka,"Terrace House, Cluster House",Freehold,337834.0,129.0,16.0
+Pahang,"Bungalow, Semi D",Leasehold,152660.0,51.0,16.0
+Selangor,"Terrace House, Cluster House",Leasehold,522500.0,288.0,16.0
+Sabah,"Town House, Semi D, Terrace House",Leasehold,1040000.0,537.0,16.0
+Selangor,"Town House, Bungalow","Leasehold, Freehold",499500.0,346.0,16.0
+Melaka,"Terrace House, Semi D",Leasehold,280000.0,172.0,16.0
+Johor,Cluster House,Leasehold,959000.0,420.0,16.0
+Negeri Sembilan,"Condominium, Service Residence",Freehold,84000.0,111.0,16.0
+Johor,Cluster House,"Leasehold, Freehold",1050000.0,415.0,15.0
+Kelantan,Terrace House,Leasehold,470000.0,361.0,15.0
+Johor,"Cluster House, Terrace House",Leasehold,498000.0,239.0,15.0
+Perak,Terrace House,"Leasehold, Freehold",476888.0,255.0,15.0
+Negeri Sembilan,"Terrace House, Bungalow",Freehold,199000.0,127.0,15.0
+Negeri Sembilan,Condominium,Leasehold,160000.0,219.0,15.0
+Selangor,"Terrace House, Cluster House","Freehold, Leasehold",416000.0,301.0,14.0
+Kedah,Bungalow,Freehold,548000.0,98.0,14.0
+Perak,"Cluster House, Bungalow",Freehold,240000.0,117.0,14.0
+Kedah,Terrace House,Leasehold,145000.0,101.0,14.0
+Sabah,Semi D,Leasehold,500000.0,238.0,14.0
+Perak,"Cluster House, Terrace House, Semi D",Leasehold,364000.0,153.0,14.0
+Perak,Condominium,Leasehold,315000.0,259.0,14.0
+Johor,"Flat, Apartment",Leasehold,320000.0,350.0,14.0
+Kedah,Apartment,Freehold,165000.0,241.0,14.0
+Kuala Lumpur,"Cluster House, Terrace House",Leasehold,300000.0,472.0,13.0
+Selangor,Town House,Leasehold,310000.0,250.0,13.0
+Kuala Lumpur,Town House,Leasehold,510000.0,431.0,13.0
+Penang,"Cluster House, Terrace House",Leasehold,350000.0,278.0,13.0
+Terengganu,Semi D,Freehold,350000.0,98.0,13.0
+Kuala Lumpur,"Semi D, Terrace House",Freehold,1270000.0,624.0,13.0
+Kelantan,"Terrace House, Bungalow",Freehold,325000.0,61.0,13.0
+Melaka,Service Residence,Leasehold,330000.0,457.0,13.0
+Pahang,"Semi D, Terrace House",Freehold,397900.0,139.0,12.0
+Perak,"Semi D, Bungalow",Leasehold,328800.0,145.0,12.0
+Penang,"Semi D, Town House, Terrace House",Freehold,526500.0,321.0,12.0
+Perak,"Terrace House, Town House",Leasehold,434500.0,263.0,12.0
+Pahang,"Semi D, Bungalow",Leasehold,260000.0,65.0,12.0
+Johor,"Bungalow, Semi D, Terrace House",Freehold,744000.0,257.0,12.0
+Kuala Lumpur,"Bungalow, Semi D",Leasehold,675000.0,207.0,12.0
+Melaka,"Terrace House, Town House",Freehold,413000.0,244.0,12.0
+Johor,"Bungalow, Terrace House, Semi D",Freehold,360000.0,153.0,12.0
+Sarawak,"Semi D, Terrace House","Freehold, Leasehold",509444.0,250.0,12.0
+Selangor,"Terrace House, Bungalow, Semi D",Leasehold,2161500.0,590.0,12.0
+Melaka,"Bungalow, Semi D",Freehold,392500.0,219.0,12.0
+Penang,"Semi D, Terrace House, Town House",Freehold,350000.0,245.0,12.0
+Perak,Condominium,Freehold,300000.0,220.0,12.0
+Sarawak,"Flat, Apartment",Leasehold,65500.0,139.0,12.0
+Putrajaya,Flat,Freehold,250000.0,357.0,12.0
+Negeri Sembilan,Service Residence,Freehold,260000.0,446.0,12.0
+Melaka,"Semi D, Terrace House","Freehold, Leasehold",320000.0,204.0,11.0
+Negeri Sembilan,"Terrace House, Semi D, Bungalow",Freehold,580000.0,207.0,11.0
+Negeri Sembilan,"Terrace House, Semi D",Leasehold,375000.0,173.0,11.0
+Perak,"Cluster House, Semi D",Leasehold,435240.0,182.0,11.0
+Perak,"Semi D, Terrace House",Freehold,317800.0,187.0,11.0
+Perak,"Town House, Terrace House",Leasehold,608000.0,294.0,11.0
+Terengganu,"Bungalow, Semi D","Freehold, Leasehold",360000.0,83.0,11.0
+Sarawak,Bungalow,Leasehold,680000.0,114.0,11.0
+Perak,Apartment,Leasehold,250000.0,287.0,11.0
+Melaka,"Cluster House, Town House, Terrace House",Freehold,205000.0,173.0,10.0
+Kedah,"Cluster House, Terrace House",Freehold,408900.0,156.0,10.0
+Negeri Sembilan,Terrace House,"Leasehold, Freehold",356500.0,247.0,10.0
+Kelantan,Bungalow,Freehold,342500.0,97.0,10.0
+Selangor,"Bungalow, Semi D",Leasehold,372500.0,128.0,10.0
+Melaka,"Semi D, Town House",Freehold,200000.0,136.0,10.0
+Sarawak,"Bungalow, Semi D",Leasehold,865000.0,274.0,10.0
+Johor,"Terrace House, Semi D","Leasehold, Freehold",425000.0,256.0,10.0
