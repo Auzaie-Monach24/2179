@@ -1,77 +1,111 @@
 {
-  "description": "Donut chart for national property Type share.",
-  "width": "container",
-  "height": 380,
-  "data": {
-    "url": "housing_type_2025.csv"
-  },
-  "mark": {
-    "type": "arc",
-    "innerRadius": 78,
-    "outerRadius": 150,
-    "stroke": "white",
-    "strokeWidth": 2
-  },
-  "encoding": {
-    "theta": {
-      "field": "Transactions",
-      "type": "quantitative",
-      "stack": true,
-      "title": "Transactions"
-    },
-    "color": {
-      "field": "Type",
-      "type": "nominal",
-      "title": "Type"
-    },
-    "tooltip": [
-      {
-        "field": "Type"
-      },
-      {
-        "field": "Transactions",
-        "type": "quantitative",
-        "format": ",.0f"
-      },
-      {
-        "field": "Median_Price",
-        "type": "quantitative",
-        "format": ",.0f"
-      },
-      {
-        "field": "Median_PSF",
-        "type": "quantitative",
-        "format": ",.0f"
-      }
-    ]
-  },
-  "title": {
-    "text": "Which property type dominates the 2025 market?",
-    "subtitle": "Donut chart uses only Type and Transactions, with price details in tooltip"
-  },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Sorted bar chart for national grouped Type share.",
+  "width": "container",
+  "height": 285,
+  "data": {
+    "url": "data/housing_type_compact_2025.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 4
+      },
+      "encoding": {
+        "y": {
+          "field": "Type",
+          "type": "nominal",
+          "sort": "-x",
+          "title": null
+        },
+        "x": {
+          "field": "Transactions",
+          "type": "quantitative",
+          "title": "Transactions"
+        },
+        "color": {
+          "field": "Median_Price",
+          "type": "quantitative",
+          "title": "Median Property Price (RM)",
+          "scale": {
+            "scheme": "blues"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Type",
+            "title": "Grouped Type"
+          },
+          {
+            "field": "Transactions",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "Median_Price",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "Median_PSF",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 5,
+        "fontSize": 11
+      },
+      "encoding": {
+        "y": {
+          "field": "Type",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "Transactions",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Transactions",
+          "type": "quantitative",
+          "format": ",.0f"
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": "Which property group dominates national transactions?",
+    "subtitle": "A sorted bar chart replaces the donut so smaller categories remain comparable by length"
+  },
   "config": {
     "view": {
       "stroke": null
     },
     "axis": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "labelFontSize": 11,
       "titleFontSize": 12,
       "gridColor": "#e7ecf2"
     },
     "legend": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "orient": "bottom"
     },
     "title": {
-      "font": "Open Sans",
+      "font": "Inter",
       "fontSize": 16,
       "anchor": "start",
       "fontWeight": "bold",
-      "subtitleFont": "Open Sans",
+      "subtitleFont": "Inter",
       "subtitleFontSize": 12,
       "subtitleColor": "#64748b"
     }

@@ -1,61 +1,91 @@
 {
   "description": "Ordered state transactions bar chart.",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
   "height": 360,
   "data": {
-    "url": "state_summary_2025.csv"
+    "url": "data/state_summary_2025.csv"
   },
-  "mark": {
-    "type": "bar",
-    "cornerRadiusEnd": 4
-  },
-  "encoding": {
-    "y": {
-      "field": "State",
-      "type": "nominal",
-      "sort": "-x",
-      "title": null
-    },
-    "x": {
-      "field": "Transactions",
-      "type": "quantitative",
-      "title": "Transactions",
-      "axis": {
-        "format": ",.0f"
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusEnd": 4
+      },
+      "encoding": {
+        "y": {
+          "field": "State",
+          "type": "nominal",
+          "sort": "-x",
+          "title": null
+        },
+        "x": {
+          "field": "Transactions",
+          "type": "quantitative",
+          "title": "Transactions",
+          "axis": {
+            "format": ",.0f"
+          }
+        },
+        "color": {
+          "field": "Median_PSF",
+          "type": "quantitative",
+          "title": "Median Price/Square-Foot (RM)",
+          "scale": {
+            "scheme": "tealblues"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "State"
+          },
+          {
+            "field": "Transactions",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "Median_Price",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "Median_PSF",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
       }
     },
-    "color": {
-      "field": "Median_PSF",
-      "type": "quantitative",
-      "title": "Median_PSF (RM)",
-      "scale": {
-        "scheme": "tealblues"
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 5,
+        "fontSize": 10,
+        "color": "#475569"
+      },
+      "encoding": {
+        "y": {
+          "field": "State",
+          "type": "nominal",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "Transactions",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Transactions",
+          "type": "quantitative",
+          "format": ",.0f"
+        }
       }
-    },
-    "tooltip": [
-      {
-        "field": "State"
-      },
-      {
-        "field": "Transactions",
-        "type": "quantitative",
-        "format": ",.0f"
-      },
-      {
-        "field": "Median_Price",
-        "type": "quantitative",
-        "format": ",.0f"
-      },
-      {
-        "field": "Median_PSF",
-        "type": "quantitative",
-        "format": ",.0f"
-      }
-    ]
-  },
+    }
+  ],
   "title": {
     "text": "Which states recorded the most housing transactions?",
-    "subtitle": "Length encodes transaction volume; colour adds price-per-square-foot context"
+    "subtitle": "Length encodes transaction volume; colour adds price-per-square-foot context; values labelled"
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "config": {
@@ -63,23 +93,23 @@
       "stroke": null
     },
     "axis": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "labelFontSize": 11,
       "titleFontSize": 12,
       "gridColor": "#e7ecf2"
     },
     "legend": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "orient": "bottom"
     },
     "title": {
-      "font": "Open Sans",
+      "font": "Inter",
       "fontSize": 16,
       "anchor": "start",
       "fontWeight": "bold",
-      "subtitleFont": "Open Sans",
+      "subtitleFont": "Inter",
       "subtitleFontSize": 12,
       "subtitleColor": "#64748b"
     }

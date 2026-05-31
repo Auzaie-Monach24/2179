@@ -1,9 +1,10 @@
 {
-  "description": "State by Type heatmap using transactions.",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Compact State by grouped Type heatmap using Transactions.",
   "width": "container",
-  "height": 430,
+  "height": 335,
   "data": {
-    "url": "housing_state_type_tenure_2025.csv"
+    "url": "data/housing_state_type_tenure_compact_2025.csv"
   },
   "params": [
     {
@@ -27,7 +28,7 @@
   "mark": {
     "type": "rect",
     "stroke": "white",
-    "strokeWidth": 0.4
+    "strokeWidth": 0.7
   },
   "encoding": {
     "x": {
@@ -35,8 +36,17 @@
       "type": "nominal",
       "title": null,
       "axis": {
-        "labelAngle": -35
-      }
+        "labelAngle": 0,
+        "labelLimit": 115
+      },
+      "sort": [
+        "Terrace-based homes",
+        "High-rise homes",
+        "Semi-D / Cluster homes",
+        "Bungalow-based homes",
+        "Town House",
+        "Other property types"
+      ]
     },
     "y": {
       "field": "State",
@@ -58,7 +68,8 @@
         "field": "State"
       },
       {
-        "field": "Type"
+        "field": "Type",
+        "title": "Grouped Type"
       },
       {
         "field": "Tenure"
@@ -78,32 +89,31 @@
     ]
   },
   "title": {
-    "text": "Which state\u2013type combinations are most active?",
-    "subtitle": "Heatmap highlights transaction concentration; Tenure filter adds ownership context"
+    "text": "Where are the active state\u2013type combinations?",
+    "subtitle": "Tenure filter keeps the ownership comparison"
   },
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "config": {
     "view": {
       "stroke": null
     },
     "axis": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "labelFontSize": 11,
       "titleFontSize": 12,
       "gridColor": "#e7ecf2"
     },
     "legend": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "orient": "bottom"
     },
     "title": {
-      "font": "Open Sans",
+      "font": "Inter",
       "fontSize": 16,
       "anchor": "start",
       "fontWeight": "bold",
-      "subtitleFont": "Open Sans",
+      "subtitleFont": "Inter",
       "subtitleFontSize": 12,
       "subtitleColor": "#64748b"
     }

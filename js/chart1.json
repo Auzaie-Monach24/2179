@@ -3,7 +3,7 @@
   "width": "container",
   "height": 420,
   "data": {
-    "url": "https://raw.githubusercontent.com/jnewbery/CartogramMalaysia/master/public/data/malaysia-states.topojson",
+    "url": "js/malaysia-states.topojson",
     "format": {
       "type": "topojson",
       "feature": "states"
@@ -17,7 +17,7 @@
       "lookup": "properties.Name",
       "from": {
         "data": {
-          "url": "state_summary_2025.csv"
+          "url": "data/state_summary_2025.csv"
         },
         "key": "State",
         "fields": [
@@ -39,7 +39,7 @@
     "color": {
       "field": "Median_Price",
       "type": "quantitative",
-      "title": "Median_Price (RM)",
+      "title": "Median Property Price (RM)",
       "scale": {
         "scheme": "blues"
       },
@@ -82,7 +82,7 @@
   },
   "title": {
     "text": "State housing price geography",
-    "subtitle": "Choropleth map: darker states have higher weighted Median_Price in 2025"
+    "subtitle": "Choropleth map: darker states have higher weighted median property price in 2025"
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "config": {
@@ -90,23 +90,23 @@
       "stroke": null
     },
     "axis": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "labelFontSize": 11,
       "titleFontSize": 12,
       "gridColor": "#e7ecf2"
     },
     "legend": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "orient": "bottom"
     },
     "title": {
-      "font": "Open Sans",
+      "font": "Inter",
       "fontSize": 16,
       "anchor": "start",
       "fontWeight": "bold",
-      "subtitleFont": "Open Sans",
+      "subtitleFont": "Inter",
       "subtitleFontSize": 12,
       "subtitleColor": "#64748b"
     }

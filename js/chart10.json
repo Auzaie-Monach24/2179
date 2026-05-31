@@ -4,7 +4,7 @@
   "width": "container",
   "height": 360,
   "data": {
-    "url": "housing_township_top12_by_state_type_2025.csv"
+    "url": "data/housing_township_top12_by_state_type_2025.csv"
   },
   "params": [
     {
@@ -219,6 +219,35 @@
           }
         ]
       }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "fontSize": 10,
+        "color": "#475569"
+      },
+      "encoding": {
+        "y": {
+          "field": "Township",
+          "type": "nominal",
+          "sort": {
+            "op": "sum",
+            "field": "Transactions",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "Transactions",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Transactions",
+          "type": "quantitative",
+          "format": ",.0f"
+        }
+      }
     }
   ],
   "resolve": {
@@ -229,30 +258,30 @@
   },
   "title": {
     "text": "Township transaction hotspots by selected state and property type",
-    "subtitle": "Filters reduce clutter; circles show Transactions and encode Median_Price by size"
+    "subtitle": "Dot size = Median_Price; values labelled; use State and Type filters to drill down"
   },
   "config": {
     "view": {
       "stroke": null
     },
     "axis": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "labelFontSize": 11,
       "titleFontSize": 12,
       "gridColor": "#e7ecf2"
     },
     "legend": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "orient": "bottom"
     },
     "title": {
-      "font": "Open Sans",
+      "font": "Inter",
       "fontSize": 16,
       "anchor": "start",
       "fontWeight": "bold",
-      "subtitleFont": "Open Sans",
+      "subtitleFont": "Inter",
       "subtitleFontSize": 12,
       "subtitleColor": "#64748b"
     }

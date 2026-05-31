@@ -1,9 +1,10 @@
 {
-  "description": "Normalised stacked bar of Type by State.",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Compact normalised stacked bar of grouped Type by State.",
   "width": "container",
-  "height": 360,
+  "height": 300,
   "data": {
-    "url": "housing_state_type_tenure_2025.csv"
+    "url": "data/housing_state_type_tenure_compact_2025.csv"
   },
   "transform": [
     {
@@ -41,7 +42,7 @@
         "Kedah"
       ],
       "axis": {
-        "labelAngle": -25
+        "labelAngle": -20
       }
     },
     "y": {
@@ -57,50 +58,74 @@
     "color": {
       "field": "Type",
       "type": "nominal",
-      "title": "Type"
+      "title": "Grouped Type",
+      "scale": {
+        "domain": [
+          "Terrace-based homes",
+          "High-rise homes",
+          "Semi-D / Cluster homes",
+          "Bungalow-based homes",
+          "Town House",
+          "Other property types"
+        ],
+        "range": [
+          "#2563eb",
+          "#f59e0b",
+          "#10b981",
+          "#ef4444",
+          "#8b5cf6",
+          "#94a3b8"
+        ]
+      }
     },
     "tooltip": [
       {
         "field": "State"
       },
       {
-        "field": "Type"
+        "field": "Type",
+        "title": "Grouped Type"
       },
       {
         "aggregate": "sum",
         "field": "Transactions",
         "type": "quantitative",
         "format": ",.0f"
+      },
+      {
+        "aggregate": "mean",
+        "field": "Median_Price",
+        "type": "quantitative",
+        "format": ",.0f"
       }
     ]
   },
   "title": {
-    "text": "How does the property-type mix differ in high-transaction states?",
-    "subtitle": "Normalised stacked bars compare Type composition using Transactions"
+    "text": "What housing types shape each active state?",
+    "subtitle": "Grouped property types reduce legend clutter while preserving the State, Type and Transactions story"
   },
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "config": {
     "view": {
       "stroke": null
     },
     "axis": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "labelFontSize": 11,
       "titleFontSize": 12,
       "gridColor": "#e7ecf2"
     },
     "legend": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "orient": "bottom"
     },
     "title": {
-      "font": "Open Sans",
+      "font": "Inter",
       "fontSize": 16,
       "anchor": "start",
       "fontWeight": "bold",
-      "subtitleFont": "Open Sans",
+      "subtitleFont": "Inter",
       "subtitleFontSize": 12,
       "subtitleColor": "#64748b"
     }

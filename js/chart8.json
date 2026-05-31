@@ -3,7 +3,7 @@
   "width": "container",
   "height": 430,
   "data": {
-    "url": "s2_2025.csv"
+    "url": "data/s2_2025.csv"
   },
   "transform": [
     {
@@ -103,11 +103,79 @@
           }
         ]
       }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.date == '2025-01-01'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -8,
+        "fontSize": 9.5,
+        "color": "#475569"
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "sort": {
+            "field": "u_rate",
+            "op": "mean",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "u_rate",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "u_rate",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.date == '2025-07-01'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 9.5,
+        "color": "#1e3a8a"
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "nominal",
+          "sort": {
+            "field": "u_rate",
+            "op": "mean",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "u_rate",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "u_rate",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
     }
   ],
   "title": {
     "text": "Which states improved or worsened in unemployment?",
-    "subtitle": "Dumbbell chart compares u_rate on 2025-01-01 and 2025-07-01 using original date values"
+    "subtitle": "grey label = Q1 rate, blue label = Q3 rate; longer line = larger shift across 2025"
   },
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "config": {
@@ -115,23 +183,23 @@
       "stroke": null
     },
     "axis": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "labelFontSize": 11,
       "titleFontSize": 12,
       "gridColor": "#e7ecf2"
     },
     "legend": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans",
+      "labelFont": "Inter",
+      "titleFont": "Inter",
       "orient": "bottom"
     },
     "title": {
-      "font": "Open Sans",
+      "font": "Inter",
       "fontSize": 16,
       "anchor": "start",
       "fontWeight": "bold",
-      "subtitleFont": "Open Sans",
+      "subtitleFont": "Inter",
       "subtitleFontSize": 12,
       "subtitleColor": "#64748b"
     }
