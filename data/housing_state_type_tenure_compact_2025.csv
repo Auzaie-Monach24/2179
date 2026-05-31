@@ -1,0 +1,102 @@
+State,Type,Tenure,Median_Price,Median_PSF,Transactions
+Johor,Terrace-based homes,Freehold,550405.09,333.14,10759.0
+Selangor,Terrace-based homes,Freehold,689544.62,414.14,7275.0
+Perak,Terrace-based homes,Leasehold,279119.47,192.26,3236.0
+Selangor,Terrace-based homes,Leasehold,584372.24,355.23,2876.0
+Negeri Sembilan,Terrace-based homes,Freehold,399824.45,262.74,2619.0
+Kedah,Terrace-based homes,Freehold,271280.17,182.88,2358.0
+Penang,Terrace-based homes,Freehold,515422.39,331.49,2015.0
+Perak,Terrace-based homes,Freehold,329343.44,201.39,1946.0
+Johor,High-rise homes,Freehold,450064.12,444.0,1887.0
+Selangor,High-rise homes,Freehold,392848.65,396.07,1860.0
+Melaka,Terrace-based homes,Freehold,278759.91,206.91,1685.0
+Kuala Lumpur,High-rise homes,Freehold,1064684.87,770.37,1583.0
+Penang,High-rise homes,Freehold,368820.72,408.36,1323.0
+Selangor,High-rise homes,Leasehold,312394.76,359.34,1317.0
+Johor,Terrace-based homes,Leasehold,335885.0,237.9,1007.0
+Melaka,Terrace-based homes,Leasehold,259268.47,175.51,999.0
+Kuala Lumpur,High-rise homes,Leasehold,428754.56,400.39,856.0
+Johor,Semi-D / Cluster homes,Freehold,804360.14,329.81,729.0
+Pahang,Terrace-based homes,Leasehold,319498.95,210.18,675.0
+Negeri Sembilan,Terrace-based homes,Leasehold,346899.31,224.11,632.0
+Johor,High-rise homes,Leasehold,283888.61,326.39,606.0
+Sarawak,Terrace-based homes,Leasehold,354056.07,191.16,605.0
+Pahang,Terrace-based homes,Freehold,280536.67,185.99,546.0
+Kuala Lumpur,Terrace-based homes,Freehold,1032636.36,597.94,440.0
+Selangor,Semi-D / Cluster homes,Freehold,1567598.01,495.38,409.0
+Penang,High-rise homes,Leasehold,232696.52,333.24,402.0
+Sabah,High-rise homes,Leasehold,220481.38,308.18,349.0
+Perak,Terrace-based homes,"Freehold, Leasehold",382950.62,248.39,322.0
+Sabah,Terrace-based homes,Leasehold,419411.76,245.42,306.0
+Kuala Lumpur,Terrace-based homes,Leasehold,756932.2,470.93,295.0
+Penang,Semi-D / Cluster homes,Freehold,801610.28,279.14,253.0
+Negeri Sembilan,High-rise homes,Freehold,120518.83,166.87,239.0
+Selangor,Terrace-based homes,"Leasehold, Freehold",872687.77,362.83,219.0
+Johor,Terrace-based homes,"Freehold, Leasehold",523529.95,307.66,217.0
+Kedah,Semi-D / Cluster homes,Freehold,401791.16,169.18,206.0
+Melaka,Semi-D / Cluster homes,Freehold,446449.49,171.87,198.0
+Perak,Semi-D / Cluster homes,Leasehold,467970.76,199.52,158.0
+Perak,Semi-D / Cluster homes,Freehold,461026.28,199.36,156.0
+Sarawak,High-rise homes,Leasehold,274951.05,320.78,143.0
+Terengganu,Terrace-based homes,Freehold,312125.0,147.77,132.0
+Penang,Terrace-based homes,Leasehold,362440.94,295.54,127.0
+Johor,Terrace-based homes,"Leasehold, Freehold",477396.72,272.31,122.0
+Negeri Sembilan,Bungalow-based homes,Freehold,509565.22,144.84,115.0
+Sarawak,Terrace-based homes,Freehold,363557.69,189.12,104.0
+Melaka,Terrace-based homes,"Freehold, Leasehold",317789.47,193.05,95.0
+Terengganu,Terrace-based homes,"Freehold, Leasehold",262637.36,81.21,91.0
+Kuala Lumpur,Terrace-based homes,"Leasehold, Freehold",775755.81,445.0,86.0
+Melaka,High-rise homes,Leasehold,223040.0,293.56,75.0
+Sarawak,Terrace-based homes,"Freehold, Leasehold",335398.99,181.86,71.0
+Perak,High-rise homes,Freehold,203868.85,219.51,61.0
+Negeri Sembilan,Semi-D / Cluster homes,Freehold,555734.07,207.81,59.0
+Pahang,Semi-D / Cluster homes,Leasehold,190721.36,59.1,59.0
+Terengganu,High-rise homes,Leasehold,152314.81,194.15,54.0
+Selangor,Bungalow-based homes,Freehold,1151923.08,238.79,52.0
+Kuala Lumpur,Semi-D / Cluster homes,Freehold,3600000.0,700.0,51.0
+Sabah,High-rise homes,Freehold,256941.18,437.96,51.0
+Selangor,Semi-D / Cluster homes,Leasehold,559040.0,278.76,50.0
+Kedah,High-rise homes,Freehold,112693.88,184.2,49.0
+Johor,Town House,Freehold,358181.82,285.64,44.0
+Terengganu,Semi-D / Cluster homes,Freehold,340250.0,107.98,40.0
+Pahang,High-rise homes,Freehold,309052.63,372.11,38.0
+Putrajaya,Terrace-based homes,Freehold,1070000.0,517.0,36.0
+Johor,Bungalow-based homes,Freehold,1157366.67,269.0,36.0
+Selangor,Terrace-based homes,"Freehold, Leasehold",491013.89,322.17,36.0
+Kuala Lumpur,Semi-D / Cluster homes,Leasehold,389142.86,323.97,35.0
+Pahang,Semi-D / Cluster homes,Freehold,408571.43,128.14,35.0
+Pahang,Terrace-based homes,"Freehold, Leasehold",228818.18,168.73,33.0
+Johor,High-rise homes,"Leasehold, Freehold",365000.0,437.0,33.0
+Johor,Bungalow-based homes,Leasehold,335000.0,95.0,32.0
+Melaka,Bungalow-based homes,Leasehold,632000.0,136.0,32.0
+Negeri Sembilan,Terrace-based homes,"Freehold, Leasehold",208620.69,141.86,29.0
+Perlis,Terrace-based homes,Freehold,414428.0,205.0,29.0
+Melaka,Bungalow-based homes,Freehold,627500.0,158.0,28.0
+Penang,Terrace-based homes,"Freehold, Leasehold",350000.0,396.0,27.0
+Melaka,High-rise homes,Freehold,278333.33,245.04,27.0
+Labuan,High-rise homes,Leasehold,130000.0,169.0,25.0
+Perak,High-rise homes,Leasehold,286400.0,271.32,25.0
+Selangor,Town House,Freehold,410434.78,283.04,23.0
+Melaka,Terrace-based homes,"Leasehold, Freehold",273809.52,197.48,21.0
+Sarawak,Terrace-based homes,"Leasehold, Freehold",522857.14,240.1,21.0
+Johor,High-rise homes,"Freehold, Leasehold",410000.0,328.0,17.0
+Melaka,Semi-D / Cluster homes,Leasehold,707000.0,136.0,17.0
+Terengganu,Terrace-based homes,Leasehold,213000.0,113.0,17.0
+Selangor,Bungalow-based homes,"Leasehold, Freehold",499500.0,346.0,16.0
+Johor,Semi-D / Cluster homes,Leasehold,959000.0,420.0,16.0
+Perak,Terrace-based homes,"Leasehold, Freehold",476888.0,255.0,15.0
+Kelantan,Terrace-based homes,Leasehold,470000.0,361.0,15.0
+Johor,Semi-D / Cluster homes,"Leasehold, Freehold",1050000.0,415.0,15.0
+Negeri Sembilan,High-rise homes,Leasehold,160000.0,219.0,15.0
+Kedah,Bungalow-based homes,Freehold,548000.0,98.0,14.0
+Sabah,Semi-D / Cluster homes,Leasehold,500000.0,238.0,14.0
+Kedah,Terrace-based homes,Leasehold,145000.0,101.0,14.0
+Kelantan,Terrace-based homes,Freehold,325000.0,61.0,13.0
+Selangor,Town House,Leasehold,310000.0,250.0,13.0
+Kuala Lumpur,Town House,Leasehold,510000.0,431.0,13.0
+Putrajaya,High-rise homes,Freehold,250000.0,357.0,12.0
+Terengganu,Semi-D / Cluster homes,"Freehold, Leasehold",360000.0,83.0,11.0
+Sarawak,Bungalow-based homes,Leasehold,680000.0,114.0,11.0
+Kelantan,Bungalow-based homes,Freehold,342500.0,97.0,10.0
+Negeri Sembilan,Terrace-based homes,"Leasehold, Freehold",356500.0,247.0,10.0
+Sarawak,Semi-D / Cluster homes,Leasehold,865000.0,274.0,10.0
