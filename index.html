@@ -3,175 +3,155 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Malaysia 2025 Housing Affordability and Labour Market Conditions</title>
+  <title>Malaysia 2025 Housing Affordability &amp; Labour Market</title>
   <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.24.0"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --ink:#172033;
-      --muted:#526173;
-      --line:#dbe3ee;
-      --panel:#ffffff;
-      --bg:#f3f6fb;
-      --blue:#1e3a8a;
-      --blue2:#0f766e;
-      --soft:#e9f3ff;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--ink);font-family:'Open Sans',Arial,sans-serif;}
-    .page{max-width:1220px;margin:0 auto;padding:22px 24px 34px;}
-    .hero{background:linear-gradient(135deg,#0f172a,#1e3a8a 62%,#0f766e);color:white;border-radius:20px;padding:26px 32px;margin-bottom:16px;box-shadow:0 12px 30px rgba(15,23,42,.18);}
-    .hero h1{margin:0 0 8px;font-size:32px;line-height:1.15;font-weight:800;letter-spacing:-.4px;}
-    .hero p{max-width:980px;margin:0;font-size:14px;line-height:1.65;color:#dbeafe;}
-    .chapter{display:flex;align-items:center;gap:12px;margin:18px 0 10px;color:#334155;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;}
-    .chapter:after{content:"";height:1px;background:var(--line);flex:1;}
-    .row{display:grid;grid-template-columns:30% 70%;gap:16px;align-items:stretch;margin:14px 0;}
-    .story-card,.chart-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:0 6px 18px rgba(15,23,42,.07);}
-    .story-card{padding:18px 20px;display:flex;flex-direction:column;justify-content:center;}
-    .story-card h2{font-size:18px;line-height:1.28;margin:0 0 9px;color:#0f172a;font-weight:800;letter-spacing:-.15px;}
-    .story-card p{font-size:13.4px;line-height:1.58;margin:0 0 8px;color:var(--muted);}
-    .story-card p:last-child{margin-bottom:0;}
-    .story-card strong{color:#1e3a8a;font-weight:800;}
-    .chart-card{padding:10px 12px 8px;display:flex;align-items:flex-start;justify-content:center;overflow-x:auto;min-height:385px;}
-    .chart-card.tall{min-height:450px;}
-    .vis{width:100%;}
-    .vega-embed{width:100%;}
-    .footer{font-size:11.5px;color:#64748b;margin-top:18px;text-align:center;line-height:1.5;}
-    @media(max-width:900px){
-      .page{padding:14px 12px 26px;}
-      .hero{padding:22px 22px;}
-      .hero h1{font-size:25px;}
-      .row{grid-template-columns:1fr;gap:10px;margin:12px 0;}
-      .story-card{padding:16px 18px;}
-      .chart-card,.chart-card.tall{min-height:390px;}
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <script src="js/vega_lite_vis.js"></script>
 </head>
 <body>
 <div class="page">
+
+  
   <section class="hero">
-    <h1>Malaysia 2025 Housing Affordability and Labour Market Conditions</h1>
-    <p>This dashboard tells a state-by-state story about whether expensive and active housing markets align with stronger or weaker labour conditions. Housing records describe township prices, tenure, property type and transaction activity, while the quarterly labour dataset adds labour force size, employment, unemployment and participation rate for 2025.</p>
-  </section>
-
-  <div class="chapter">By: Auzaie Nasir | FIT2179 | DATA VISUALIZATION II</div>
-
-  <section class="row">
-    <div class="story-card">
-      <h2>Where are Malaysia's higher-priced housing markets?</h2>
-      <p>The map starts the dashboard geographically by showing how weighted median property prices vary across states.</p>
-      <p>Darker states point to more expensive housing markets, helping the reader quickly locate where affordability pressure is likely to be higher before moving into labour comparisons.</p>
+    <h1>Malaysia 2025: Housing Affordability &amp; Labour Market</h1>
+    <p class="tagline">Does where you earn determine whether you can afford to buy? <br>
+      This dashboard links state-level property prices and transaction volumes in Malaysia on 2025, surfacing where affordability pressure and employment strength converge, and where they pull apart.</p>
+    <div class="hero-stats">
+      <div class="stat-chip"><span class="val">RM 893K</span><span class="lbl">Highest median price : KL</span></div>
+      <div class="stat-chip"><span class="val">15,520</span><span class="lbl">Most deals in one state : Johor</span></div>
+      <div class="stat-chip"><span class="val">56,183</span><span class="lbl">Total 2025 transactions</span></div>
+      <div class="stat-chip"><span class="val">5.7%</span><span class="lbl">Highest unemployment : Sabah</span></div>
+      <div class="stat-chip"><span class="val">1.4%</span><span class="lbl">Lowest unemployment : Putrajaya</span></div>
     </div>
-    <div class="chart-card tall"><div id="vis1" class="vis"></div></div>
   </section>
 
-  <div class="chapter">Housing price and labour context</div>
+  <div class="chapter"><span class="chapter-pill">+</span> BY: AUZAIE MOHD NASIR | 35590416 | DATA VISUALIZATION II</div>
 
-  <section class="row">
-    <div class="story-card">
-      <h2>Do higher-price states also face weaker labour conditions?</h2>
-      <p>This scatterplot connects the two datasets using State/state. Median_Price is compared against u_rate, while bubble size shows Transactions.</p>
-      <p>The chart helps identify whether expensive markets are supported by healthier labour conditions or whether some states combine high prices with higher unemployment risk.</p>
+  <!-- Section 1: Spatial Overview -->
+  <div class="chapter"><span class="chapter-pill">1</span> Spatial overview</div>
+
+  <p class="section-intro">
+    Malaysia's housing prices split sharply along the urban-rural divide. <strong>Kuala Lumpur (RM 893K) and Putrajaya (RM 865K)</strong> sit in a league of their own, anchoring the premium end of the market. Moving outward, the west-coast corridor, Selangor, Penang, Johor, remains elevated but accessible for higher-income households. <strong>Labuan (RM 130K), Terengganu (RM 274K) and Kedah (RM 279K)</strong> represent the country's most affordable markets. Use the map as a geographic reference before exploring the labour and market-structure charts below.
+  </p>
+  <div class="chart-card map-card"><div id="vis1" class="vis"></div></div>
+
+  <!-- Section 2: Price & Labour -->
+  <div class="chapter"><span class="chapter-pill">2</span> Housing price and labour context</div>
+
+  <div class="grid-2">
+    <div class="chart-card">
+      <div id="vis2" class="vis"></div>
+      <div class="card-caption">
+        <strong>High prices don't always mean weak jobs.</strong> Selangor pairs premium prices (RM 622K) with the <em>lowest</em> unemployment nationally (1.8%), a market backed by strong employment. Sabah goes the other way: modest property costs yet 5.7% unemployment, signalling structural labour weakness independent of housing costs. KL anchors the price axis at RM 893K with a moderate 3.2% unemployment rate. Bubble size reflects transaction volume.
+      </div>
     </div>
-    <div class="chart-card"><div id="vis2" class="vis"></div></div>
-  </section>
-
-  <section class="row">
-    <div class="story-card">
-      <h2>Which states recorded the strongest housing activity?</h2>
-      <p>Transaction totals reveal where market activity is concentrated, not just where prices are highest.</p>
-      <p>The colour channel adds Median_PSF, making it possible to separate high-volume affordable markets from high-volume premium markets.</p>
+    <div class="chart-card">
+      <div id="vis3" class="vis"></div>
+      <div class="card-caption">
+        <strong>Two states own half the market.</strong> Johor (15,520 deals) and Selangor (14,146) together represent over 52% of all 2025 transactions, followed by Perak (5,919) at a distant third. KL records just 3,359 deals despite the highest prices, a high-cost, low-volume premium market. Price-per-sq-ft colour separates affordable high-volume states from premium ones.
+      </div>
     </div>
-    <div class="chart-card"><div id="vis3" class="vis"></div></div>
-  </section>
+  </div>
 
-  <div class="chapter">Market structure</div>
+  <!-- Section 3: Market Structure -->
+  <div class="chapter"><span class="chapter-pill">3</span> Market structure</div>
 
-  <section class="row">
-    <div class="story-card">
-      <h2>How does property type mix differ across active states?</h2>
-      <p>The normalised stacked bar focuses on composition rather than raw totals. This shows whether each active state is driven more by terrace houses, apartments, condominiums or other property types.</p>
-      <p>This matters because two states can have similar transaction totals but very different housing-market structures.</p>
+  <div class="grid-2">
+    <div class="chart-card">
+      <div id="vis4" class="vis"></div>
+      <div class="card-caption">
+        <strong>Terrace homes dominate active states.</strong> In Johor and Selangor, the two busiest markets, terrace-based homes account for the overwhelming majority of transactions, reflecting the continued pull of landed housing in the urban periphery. High-rise properties gain a stronger share in KL and Penang, where land scarcity pushes density upward.
+      </div>
     </div>
-    <div class="chart-card"><div id="vis4" class="vis"></div></div>
-  </section>
-
-  <section class="row">
-    <div class="story-card">
-      <h2>Which property type dominates the national market?</h2>
-      <p>The donut chart gives a compact national summary of Transactions by Type.</p>
-      <p>It works as a quick part-to-whole view before the dashboard drills down into state and township patterns.</p>
+    <div class="chart-card">
+      <div id="vis5" class="vis"></div>
+      <div class="card-caption">
+        <strong>Three categories cover 97% of the market.</strong> Terrace-based homes lead with 42,176 deals (75% of total), high-rise homes follow at 11,047 (20%), and Semi-D/Cluster at 2,521 (4.5%). Bungalows and town houses combined account for under 500 transactions, the 2025 market is essentially a two-type story.
+      </div>
     </div>
-    <div class="chart-card"><div id="vis5" class="vis"></div></div>
-  </section>
+  </div>
 
   <section class="row">
     <div class="story-card">
-      <h2>Which state type combinations are the most active?</h2>
-      <p>The heatmap reveals dense combinations of State and Type using Transactions.</p>
-      <p>The Tenure filter adds ownership context, allowing the reader to test whether activity patterns change when focusing on Freehold, Leasehold or other tenure categories.</p>
+      <h2>Where do active state&ndash;type combinations concentrate?</h2>
+      <p>Scan the heatmap: the hottest cells are <strong>Johor&ndash;terrace</strong> and <strong>Selangor&ndash;terrace</strong>, confirming landed housing as the national engine. High-rise activity is more evenly spread along the west coast, KL, Selangor, and Penang all show notable counts.</p>
+      <p>Toggle the <strong>Tenure</strong> filter to reveal ownership patterns: freehold terrace homes cluster in Johor, while leasehold high-rise properties dominate KL and Selangor, a distinction with long-term resale implications.</p>
+      <div class="key-insight"><strong>Key takeaway:</strong> Terrace + Johor/Selangor = highest liquidity. High-rise + KL/Penang = deepest freehold pool.</div>
     </div>
     <div class="chart-card tall"><div id="vis7" class="vis"></div></div>
   </section>
 
-  <div class="chapter">Quarterly labour movement</div>
+  <!-- Section 4: Quarterly Labour Movement -->
+  <div class="chapter"><span class="chapter-pill">4</span> Quarterly labour movement</div>
 
   <section class="row">
     <div class="story-card">
-      <h2>Do employment and unemployment move together during 2025?</h2>
-      <p>This dual-axis line chart uses the actual labour columns: lf_employed on the left scale and lf_unemployed on the right scale.</p>
-      <p>The state filter supports a focused reading of quarterly labour movement without flattening unemployment under the much larger employed-person count.</p>
+      <h2>Employment holds steady; unemployment stays contained</h2>
+      <p>Across all states, employed-person counts trend upward through 2025, while unemployment figures remain comparatively flat on the right axis, a broadly positive signal for household income capacity and mortgage serviceability.</p>
+      <p>Select individual states using the filter. <strong>Selangor and Johor</strong> show consistently rising employment, reinforcing their dominance in housing activity. <strong>Sabah</strong> exhibits wider quarterly swings, consistent with its structurally higher unemployment rate seen in the scatterplot.</p>
+      <div class="key-insight"><strong>Key takeaway:</strong> Strong employment growth in Selangor and Johor explains why these markets sustain high transaction volumes even as prices rise.</div>
     </div>
     <div class="chart-card"><div id="vis6" class="vis"></div></div>
   </section>
 
   <section class="row">
     <div class="story-card">
-      <h2>Which states improved or worsened in unemployment?</h2>
-      <p>The dumbbell chart compares u_rate between the early and later 2025 quarters.</p>
-      <p>A longer connecting line indicates a larger labour-market shift, making it easier to spot states where unemployment changed noticeably during the year.</p>
+      <h2>Most states trimmed unemployment across 2025</h2>
+      <p>Each dumbbell connects a state's earliest and latest 2025 quarterly unemployment rate. A <strong>leftward shift</strong> in the right endpoint signals improvement; rightward means conditions worsened.</p>
+      <p>States with longer connecting lines experienced the most pronounced year-long changes. <strong>Sabah and Kelantan</strong>, already the weakest performers on the scatterplot, show the widest spreads, making them the most important states to watch for housing-affordability stress driven by income instability.</p>
+      <div class="key-insight"><strong>Key takeaway:</strong> Sabah's persistently high unemployment, despite modest property prices, suggests affordability is constrained by earnings rather than house prices.</div>
     </div>
     <div class="chart-card tall"><div id="vis8" class="vis"></div></div>
   </section>
 
-  <div class="chapter">Advanced market profile and local hotspots</div>
+  <!-- Section 5: Advanced Profile & Hotspots -->
+  <div class="chapter"><span class="chapter-pill">5</span> Advanced market profile and local hotspots</div>
 
   <section class="row">
     <div class="story-card">
-      <h2>Which states combine high activity with high price levels?</h2>
-      <p>The radial profile compresses two housing indicators into one advanced idiom: angle shows Transactions, while radius represents Median_Price.</p>
-      <p>This gives a quick profile of states that are both active and expensive, compared with markets that are active but more moderate in price.</p>
+      <h2>Volume leaders are not price leaders</h2>
+      <p>The aligned profile places transaction bars and median-price dots on a shared state axis so both dimensions can be read at a glance, no angles or radii to misread.</p>
+      <p><strong>Johor</strong> tops the volume bar by a wide margin, yet its median price sits well below Selangor and KL. <strong>KL</strong> anchors the far right of the price axis despite a thin transaction count, confirming that prestige pricing and market depth follow different drivers.</p>
+      <div class="key-insight"><strong>Key takeaway:</strong> Buyers seeking future liquidity should favour Johor or Selangor, where a larger pool of comparable sales reduces valuation risk at exit.</div>
     </div>
     <div class="chart-card tall"><div id="vis9" class="vis"></div></div>
   </section>
 
   <section class="row">
     <div class="story-card">
-      <h2>Where are the township transaction hotspots?</h2>
-      <p>The lollipop chart drills down from state-level patterns into Township and Area records.</p>
-      <p>State and Type filters reduce clutter, so the reader can compare the most active localities for a selected property category instead of viewing every township at once.</p>
+      <h2>A handful of townships drive each state's totals</h2>
+      <p>Beneath state averages, transactions concentrate heavily in a small number of townships. Removing the top five localities from Johor or Selangor would materially shrink each state's headline count, the long tail is real.</p>
+      <p>Use the <strong>State</strong> and <strong>Type</strong> filters to compare active terrace corridors in Johor against high-rise hotspots in Selangor and KL. Lollipop length makes inter-township differences immediately visible without a cluttered axis.</p>
+      <div class="key-insight"><strong>Key takeaway:</strong> Township selection matters as much as state selection, hyperlocal demand drives future price growth, not state-level averages alone.</div>
     </div>
     <div class="chart-card"><div id="vis10" class="vis"></div></div>
   </section>
 
-  <div class="footer">Data sources: https://www.kaggle.com/datasets/lyhatt/house-prices-in-malaysia-2025 & https://data.gov.my/data-catalogue/lfs_qtr_state </div>
+  <div class="footer">
+    <div class="footer-grid">
+      <div class="footer-item">
+        <strong>Data Source 1 - Kaggle</strong>
+        <span><a href="https://www.kaggle.com/datasets/lyhatt/house-prices-in-malaysia-2025">https://www.kaggle.com/datasets/lyhatt/house-prices-in-malaysia-2025</a></span>
+      </div>
+      <div class="footer-item">
+        <strong>Data Source 2 - Data.Gov.My</strong>
+        <span><a href="https://data.gov.my/data-catalogue/lfs_qtr_state">https://data.gov.my/data-catalogue/lfs_qtr_state</a></span>
+      </div>
+      <div class="footer-item">
+        <strong>Unit</strong>
+        <span>FIT2179</span>
+      </div>
+    </div>
+    <p class="footer-note">Median prices are transaction-weighted medians aggregated per state. 
+      All prepared CSV files retain original source column names. Labour data is filtered to 2025 quarters only.
+    <br>A Github Copilot is used to assist some of the parts during the completion of this viusalization.</p>
+  </div>
+
 </div>
-<script>
-const opts = {actions:false, renderer:'svg'};
-vegaEmbed('#vis1', 'chart1.json', opts).catch(console.error);
-vegaEmbed('#vis2', 'chart2.json', opts).catch(console.error);
-vegaEmbed('#vis3', 'chart3.json', opts).catch(console.error);
-vegaEmbed('#vis4', 'chart4.json', opts).catch(console.error);
-vegaEmbed('#vis5', 'chart5.json', opts).catch(console.error);
-vegaEmbed('#vis6', 'chart6.json', opts).catch(console.error);
-vegaEmbed('#vis7', 'chart7.json', opts).catch(console.error);
-vegaEmbed('#vis8', 'chart8.json', opts).catch(console.error);
-vegaEmbed('#vis9', 'chart9.json', opts).catch(console.error);
-vegaEmbed('#vis10', 'chart10.json', opts).catch(console.error);
-</script>
 </body>
 </html>
